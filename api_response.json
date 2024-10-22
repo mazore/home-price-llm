@@ -1,0 +1,2066 @@
+{
+    "data": {
+        "home": {
+            "mortgage": {
+                "property_tax_rate": 0.01688511,
+                "average_rates": [
+                    {
+                        "rate": 0.06697,
+                        "loan_type": {
+                            "loan_id": "thirty_year_fix",
+                            "is_va_loan": null,
+                            "display_name": "30-year fixed",
+                            "term": 30,
+                            "__typename": "LoanType"
+                        },
+                        "__typename": "Rate"
+                    },
+                    {
+                        "rate": 0.06543,
+                        "loan_type": {
+                            "loan_id": "twenty_year_fix",
+                            "is_va_loan": null,
+                            "display_name": "20-year fixed",
+                            "term": 20,
+                            "__typename": "LoanType"
+                        },
+                        "__typename": "Rate"
+                    },
+                    {
+                        "rate": 0.05725,
+                        "loan_type": {
+                            "loan_id": "fifteen_year_fix",
+                            "is_va_loan": null,
+                            "display_name": "15-year fixed",
+                            "term": 15,
+                            "__typename": "LoanType"
+                        },
+                        "__typename": "Rate"
+                    },
+                    {
+                        "rate": 0.05608,
+                        "loan_type": {
+                            "loan_id": "ten_year_fix",
+                            "is_va_loan": null,
+                            "display_name": "10-year fixed",
+                            "term": 10,
+                            "__typename": "LoanType"
+                        },
+                        "__typename": "Rate"
+                    },
+                    {
+                        "rate": 0.06006,
+                        "loan_type": {
+                            "loan_id": "thirty_year_fha",
+                            "is_va_loan": null,
+                            "display_name": "30-year fixed FHA",
+                            "term": 30,
+                            "__typename": "LoanType"
+                        },
+                        "__typename": "Rate"
+                    },
+                    {
+                        "rate": 0.06067,
+                        "loan_type": {
+                            "loan_id": "thirty_year_va",
+                            "is_va_loan": true,
+                            "display_name": "30-year fixed VA",
+                            "term": 30,
+                            "__typename": "LoanType"
+                        },
+                        "__typename": "Rate"
+                    },
+                    {
+                        "rate": 0.0666,
+                        "loan_type": {
+                            "loan_id": "five_one_arm",
+                            "is_va_loan": null,
+                            "display_name": "5-year ARM",
+                            "term": 30,
+                            "__typename": "LoanType"
+                        },
+                        "__typename": "Rate"
+                    },
+                    {
+                        "rate": 0.0682,
+                        "loan_type": {
+                            "loan_id": "seven_one_arm",
+                            "is_va_loan": null,
+                            "display_name": "7-year ARM",
+                            "term": 30,
+                            "__typename": "LoanType"
+                        },
+                        "__typename": "Rate"
+                    }
+                ],
+                "closing_cost": 9400,
+                "closing_cost_rate": "4%",
+                "due_at_close": 56400,
+                "insurance_rate": 0.004375,
+                "county_fha_loan_limit": 498257,
+                "is_listing_price_eligible_for_fha": true,
+                "estimate": {
+                    "monthly_payment": 1629,
+                    "monthly_payment_details": [
+                        {
+                            "amount": 1213,
+                            "display_name": "Principal & Interest",
+                            "type": "principal_and_interest",
+                            "__typename": "MonthlyOwnershipExpense"
+                        },
+                        {
+                            "amount": 86,
+                            "display_name": "Home Insurance",
+                            "type": "home_insurance",
+                            "__typename": "MonthlyOwnershipExpense"
+                        },
+                        {
+                            "amount": 0,
+                            "display_name": "HOA Fees",
+                            "type": "hoa_fees",
+                            "__typename": "MonthlyOwnershipExpense"
+                        },
+                        {
+                            "amount": 0,
+                            "display_name": "Mortgage Insurance",
+                            "type": "mortgage_insurance",
+                            "__typename": "MonthlyOwnershipExpense"
+                        },
+                        {
+                            "amount": 331,
+                            "display_name": "Property Tax",
+                            "type": "property_tax",
+                            "__typename": "MonthlyOwnershipExpense"
+                        }
+                    ],
+                    "average_rate": {
+                        "rate": 0.06697,
+                        "loan_type": {
+                            "term": 30,
+                            "__typename": "LoanType"
+                        },
+                        "__typename": "Rate"
+                    },
+                    "__typename": "MortgageEstimate"
+                },
+                "__typename": "Mortgage"
+            },
+            "advertisers": [
+                {
+                    "corporation": null,
+                    "team": null,
+                    "state_license": "",
+                    "address": {
+                        "city": "ALLENTOWN",
+                        "country": "US",
+                        "line": "4124 W. Tilghman Street",
+                        "postal_code": "18104",
+                        "state": "",
+                        "state_code": "PA",
+                        "__typename": "AdvertiserAddress"
+                    },
+                    "builder": null,
+                    "broker": {
+                        "accent_color": "Transparent",
+                        "designations": [],
+                        "fulfillment_id": "711072",
+                        "name": "WEICHERT REALTORS",
+                        "logo": "https://ap.rdcpix.com/793080826/491b01a659462ed2924fe3cc6553f29fk-c0s.jpg",
+                        "__typename": "HomeAdvertiserBroker"
+                    },
+                    "email": "bgorman@weichert.com",
+                    "fulfillment_id": "1416210",
+                    "href": "",
+                    "mls_set": "A-LHPA-1006194",
+                    "name": "Barbara Gorman",
+                    "nrds_id": null,
+                    "office": {
+                        "address": {
+                            "city": "ALLENTOWN",
+                            "coordinate": {
+                                "lat": null,
+                                "lon": null,
+                                "__typename": "SimpleCoordinate"
+                            },
+                            "country": "US",
+                            "line": "4124 West Tilghman Street",
+                            "postal_code": "18104",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "__typename": "AdvertiserAddress"
+                        },
+                        "application_url": null,
+                        "email": "rdclead@wlninc.com",
+                        "lead_email": null,
+                        "fulfillment_id": "307760",
+                        "hours": null,
+                        "href": "http://www.weichert.com/search/offices/office.aspx?office=20-494",
+                        "mls_set": "O-LHPA-1000614",
+                        "out_of_community": null,
+                        "name": "Weichert, Realtors - Allentown",
+                        "phones": [
+                            {
+                                "ext": "",
+                                "number": "8008391295",
+                                "primary": true,
+                                "trackable": null,
+                                "type": "Office",
+                                "__typename": "AdvertiserPhone"
+                            },
+                            {
+                                "ext": "",
+                                "number": "8669486325",
+                                "primary": true,
+                                "trackable": null,
+                                "type": "Office",
+                                "__typename": "AdvertiserPhone"
+                            }
+                        ],
+                        "photo": {
+                            "href": "https://ap.rdcpix.com/454348271/79db914129aeb48c03fde53032c52108o-c0l.jpg",
+                            "__typename": "Href"
+                        },
+                        "slogan": "",
+                        "__typename": "HomeAdvertiserOffice"
+                    },
+                    "phones": [
+                        {
+                            "ext": "",
+                            "number": "6108647155",
+                            "primary": true,
+                            "trackable": null,
+                            "type": "Mobile",
+                            "__typename": "AdvertiserPhone"
+                        }
+                    ],
+                    "photo": {
+                        "href": null,
+                        "__typename": "Href"
+                    },
+                    "slogan": "",
+                    "type": "seller",
+                    "__typename": "HomeAdvertiser"
+                }
+            ],
+            "builder": null,
+            "products": {
+                "products": [
+                    "core.agent",
+                    "core.broker",
+                    "co_broke"
+                ],
+                "brand_name": "essentials",
+                "__typename": "ProductSummary"
+            },
+            "promotions": null,
+            "consumer_advertisers": [
+                {
+                    "advertiser_id": "307760",
+                    "agent_id": "1416210",
+                    "broker_id": "711072",
+                    "office_id": "307760",
+                    "name": "Barbara Gorman",
+                    "type": "Agent",
+                    "slogan": null,
+                    "phone": null,
+                    "href": "/realestateagents/Barbara-Gorman_Bethlehem_PA_1416210",
+                    "show_realtor_logo": false,
+                    "hours": null,
+                    "contact_name": null,
+                    "address": null,
+                    "photo": {
+                        "description": null,
+                        "href": null,
+                        "type": null,
+                        "__typename": "Photo"
+                    },
+                    "__typename": "ConsumerAdvertiser"
+                },
+                {
+                    "advertiser_id": "307760",
+                    "agent_id": "1416210",
+                    "broker_id": "711072",
+                    "office_id": "307760",
+                    "name": "Weichert, Realtors - Allentown",
+                    "type": "Office",
+                    "slogan": null,
+                    "phone": "(800) 839-1295",
+                    "href": "http://www.weichert.com/search/offices/office.aspx?office=20-494",
+                    "show_realtor_logo": false,
+                    "hours": null,
+                    "contact_name": null,
+                    "address": {
+                        "city": "ALLENTOWN",
+                        "state_code": "PA",
+                        "__typename": "AdvertiserAddress"
+                    },
+                    "photo": {
+                        "description": null,
+                        "href": "https://ap.rdcpix.com/454348271/79db914129aeb48c03fde53032c52108o-c0s.jpg",
+                        "type": null,
+                        "__typename": "Photo"
+                    },
+                    "__typename": "ConsumerAdvertiser"
+                }
+            ],
+            "buyers": null,
+            "community": null,
+            "days_on_market": null,
+            "move_in_date": null,
+            "description": {
+                "baths": 2,
+                "baths_3qtr": null,
+                "baths_full": 2,
+                "baths_half": null,
+                "baths_max": null,
+                "baths_min": null,
+                "baths_total": null,
+                "baths_consolidated": "2",
+                "beds": 3,
+                "beds_max": null,
+                "beds_min": null,
+                "construction": null,
+                "cooling": null,
+                "exterior": null,
+                "fireplace": null,
+                "garage": 1,
+                "garage_max": null,
+                "garage_min": null,
+                "garage_type": null,
+                "heating": null,
+                "logo": null,
+                "lot_sqft": 2396,
+                "name": null,
+                "pool": null,
+                "roofing": null,
+                "rooms": null,
+                "sqft": 1991,
+                "sqft_max": null,
+                "sqft_min": null,
+                "stories": 2,
+                "styles": [
+                    "colonial_revival"
+                ],
+                "sub_type": null,
+                "text": "HIGHEST & BEST by TUESDAY, OCT. 22nd by 7:00 PM please! Charming Twin home in the Bethlehem SD with prime central location! Spacious rooms brag of hardwood flooring, natural wood trim throughout, and newer vinyl windows. Large eat-in kitchen has been totally remodeled with a sub-zero refrigerator, new microwave, corian counters, and 42 cabinetry. Efficient gas cooking and HVAC, new water heater, full basement with laundry area, a heated attic, 5x4 walk in bedroom closet, and an extra 2nd floor hallway closet are definite amenities. Beautiful wood trim windows with stain glass inserts definitely adds to the charm of the living room, as you enter the home! The exterior features a very inviting covered front porch with new composite wood floor, a back covered porch/deck, 1 car detached garage so no parking issue, and a fenced in yard, safe for child/pet play. Ample storage space and all appliances remain! Close to sports fields, schools, major roadways, medical/dental facilities, and much more. With some TLC, this could be your perfect home; investors welcome!",
+                "type": "single_family",
+                "units": null,
+                "year_built": 1925,
+                "year_renovated": null,
+                "zoning": null,
+                "__typename": "HomeDescription"
+            },
+            "details": [
+                {
+                    "category": "Bedrooms",
+                    "parent_category": "Interior",
+                    "text": [
+                        "Bedrooms: 3"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "Other Rooms",
+                    "parent_category": "Interior",
+                    "text": [
+                        "Total Rooms: 7"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "Bathrooms",
+                    "parent_category": "Interior",
+                    "text": [
+                        "Total Bathrooms: 2",
+                        "Full Bathrooms: 2"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "Interior Features",
+                    "parent_category": "Interior",
+                    "text": [
+                        "Attic Storage",
+                        "Drapes",
+                        "Laundry Lower Level",
+                        "Traditional",
+                        "Walk-in Closet(s)"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "Appliances",
+                    "parent_category": "Interior",
+                    "text": [
+                        "Dishwasher",
+                        "Electric Garage Door",
+                        "Laundry Hookup",
+                        "Microwave",
+                        "Oven/Range Gas",
+                        "Refrigerator",
+                        "Washer/Dryer"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "Heating and Cooling",
+                    "parent_category": "Interior",
+                    "text": [
+                        "Cooling Features: Ceiling Fans, Central AC",
+                        "Heating Features: Forced Air, Gas"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "Exterior and Lot Features",
+                    "parent_category": "Exterior",
+                    "text": [
+                        "Covered Porch",
+                        "Curbs",
+                        "Fenced Yard",
+                        "Porch",
+                        "Screens",
+                        "Sidewalk",
+                        "Storm Door"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "Land Info",
+                    "parent_category": "Exterior",
+                    "text": [
+                        "Lot Size Acres: 0.055",
+                        "Lot Size Square Feet: 2396"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "Garage and Parking",
+                    "parent_category": "Exterior",
+                    "text": [
+                        "Garage Spaces: 1",
+                        "Garage Description: Detached, Off & On Street"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "Homeowners Association",
+                    "parent_category": "Community",
+                    "text": [
+                        "Association: No",
+                        "Calculated Total Monthly Association Fees: 0"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "School Information",
+                    "parent_category": "Community",
+                    "text": [
+                        "Elementary School: Thomas Jefferson",
+                        "High School: Liberty",
+                        "Middle School: Northeast",
+                        "School District: Bethlehem"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "Other Property Info",
+                    "parent_category": "Listing",
+                    "text": [
+                        "Source Listing Status: Available",
+                        "County: Northampton",
+                        "Cross Street: Linden",
+                        "Directions: Rte.22 East to Rte 191 South (Linden Street); Left on E Locust Street (across from Liberty High School) OR: west on Easton Avenue to Linden Street, turn left on E. Locust. Home is on the right, across from the Lafayette Field park.",
+                        "Source Property Type: Residential",
+                        "Area: Bethlehem-North",
+                        "Source Neighborhood: Not in Development",
+                        "Ownership Type: Fee Simple",
+                        "Parcel Number: N6SE3D 3 12 0204",
+                        "Postal Code Plus 4: 2919",
+                        "Subdivision: Not in Development",
+                        "Zoning: Rm-residential",
+                        "Property Subtype: Semi Detached/Twin",
+                        "Source System Name: C2C"
+                    ],
+                    "__typename": "HomeDetails"
+                },
+                {
+                    "category": "Building and Construction",
+                    "parent_category": "Features",
+                    "text": [
+                        "Year Built: 1925",
+                        "Insulation: Type Unknown",
+                        "Property Age: 99",
+                        "Roof: Asphalt Fiberglass",
+                        "Levels or Stories: 2.0",
+                        "House Style: Colonial",
+                        "Total Above Grade Sqft Area: 1817"
+                    ],
+                    "__typename": "HomeDetails"
+                }
+            ],
+            "other_listings": {
+                "rdc": [
+                    {
+                        "listing_id": "2973819399",
+                        "status": "for_sale",
+                        "listing_key": null,
+                        "sold_date": null,
+                        "primary": true,
+                        "unique": true,
+                        "__typename": "HomeOtherListing"
+                    }
+                ],
+                "__typename": "HomeOtherListings"
+            },
+            "lead_attributes": {
+                "show_contact_an_agent": true,
+                "lead_type": "co_broke",
+                "show_lead_form": true,
+                "disclaimer_text": null,
+                "is_tcpa_message_enabled": null,
+                "show_text_leads": true,
+                "opcity_lead_attributes": {
+                    "flip_the_market_enabled": false,
+                    "phones": null,
+                    "__typename": "OpCityLeadAttributes"
+                },
+                "ready_connect_mortgage": {
+                    "show_contact_a_lender": true,
+                    "show_veterans_united": true,
+                    "__typename": "ReadyConnectMortgage"
+                },
+                "__typename": "LeadAttributes"
+            },
+            "flags": {
+                "is_coming_soon": null,
+                "is_contingent": null,
+                "is_foreclosure": null,
+                "is_new_construction": null,
+                "is_pending": null,
+                "is_subdivision": null,
+                "is_price_reduced": null,
+                "is_new_listing": true,
+                "__typename": "HomeFlags"
+            },
+            "href": "https://www.realtor.com/realestateandhomes-detail/436-E-Locust-St_Bethlehem_PA_18018_M38811-10142",
+            "last_sold_date": null,
+            "last_sold_price": null,
+            "list_date": "2024-10-19T00:29:30Z",
+            "list_price": 235000,
+            "last_price_change_amount": null,
+            "listing_id": "2973819399",
+            "location": {
+                "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=436%20E%20Locust%20St%2C%20Bethlehem%2C%20PA%2018018&size=932x420&source=outdoor&signature=OJ3R4qto8KHABMAZCEya3brGNNY=",
+                "street_view_metadata_url": "https://maps.googleapis.com/maps/api/streetview/metadata?channel=rdc-streetview&client=gme-movesalesinc&location=436%20E%20Locust%20St%2C%20Bethlehem%2C%20PA%2018018&size=640x480&source=outdoor&signature=yvwOhy2fXfu525G4OuUiUBExyAw=",
+                "address": {
+                    "city": "Bethlehem",
+                    "coordinate": {
+                        "lat": 40.629339,
+                        "lon": -75.367344,
+                        "__typename": "HomeCoordinate"
+                    },
+                    "country": "USA",
+                    "line": "436 E Locust St",
+                    "postal_code": "18018",
+                    "state": "Pennsylvania",
+                    "state_code": "PA",
+                    "street_direction": "E",
+                    "street_name": "Locust",
+                    "street_number": "436",
+                    "street_post_direction": null,
+                    "street_suffix": "St",
+                    "unit": null,
+                    "validation_code": "121",
+                    "__typename": "HomeAddress"
+                },
+                "county": {
+                    "fips_code": "42095",
+                    "name": "Northampton",
+                    "state_code": "PA",
+                    "__typename": "HomeCounty"
+                },
+                "neighborhoods": [
+                    {
+                        "city": "Bethlehem",
+                        "id": "6b4ff7b2-d523-5e2d-9d2b-c4b1ed2896e8",
+                        "level": "neighborhood",
+                        "name": "Central Bethlehem",
+                        "geo_type": "neighborhood",
+                        "state_code": "PA",
+                        "slug_id": "Central-Bethlehem_Bethlehem_PA",
+                        "geo_statistics": {
+                            "housing_market": {
+                                "median_listing_price": 286000,
+                                "__typename": "HousingMarket"
+                            },
+                            "__typename": "GeoStatistics"
+                        },
+                        "boundary": {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [
+                                        -75.34346,
+                                        40.63713
+                                    ],
+                                    [
+                                        -75.34295,
+                                        40.63439
+                                    ],
+                                    [
+                                        -75.34155,
+                                        40.63456
+                                    ],
+                                    [
+                                        -75.3412,
+                                        40.6343
+                                    ],
+                                    [
+                                        -75.34121,
+                                        40.63411
+                                    ],
+                                    [
+                                        -75.34083,
+                                        40.63411
+                                    ],
+                                    [
+                                        -75.34003,
+                                        40.63342
+                                    ],
+                                    [
+                                        -75.34002,
+                                        40.63317
+                                    ],
+                                    [
+                                        -75.33957,
+                                        40.63316
+                                    ],
+                                    [
+                                        -75.33943,
+                                        40.63209
+                                    ],
+                                    [
+                                        -75.33887,
+                                        40.63205
+                                    ],
+                                    [
+                                        -75.33986,
+                                        40.63087
+                                    ],
+                                    [
+                                        -75.34129,
+                                        40.63
+                                    ],
+                                    [
+                                        -75.34275,
+                                        40.62962
+                                    ],
+                                    [
+                                        -75.35053,
+                                        40.6291
+                                    ],
+                                    [
+                                        -75.3505,
+                                        40.62876
+                                    ],
+                                    [
+                                        -75.35028,
+                                        40.62873
+                                    ],
+                                    [
+                                        -75.34994,
+                                        40.62644
+                                    ],
+                                    [
+                                        -75.34977,
+                                        40.62318
+                                    ],
+                                    [
+                                        -75.34771,
+                                        40.62326
+                                    ],
+                                    [
+                                        -75.34761,
+                                        40.62224
+                                    ],
+                                    [
+                                        -75.34728,
+                                        40.62221
+                                    ],
+                                    [
+                                        -75.34674,
+                                        40.62062
+                                    ],
+                                    [
+                                        -75.34958,
+                                        40.6203
+                                    ],
+                                    [
+                                        -75.35789,
+                                        40.61771
+                                    ],
+                                    [
+                                        -75.36776,
+                                        40.61643
+                                    ],
+                                    [
+                                        -75.37121,
+                                        40.61628
+                                    ],
+                                    [
+                                        -75.37548,
+                                        40.61524
+                                    ],
+                                    [
+                                        -75.3811,
+                                        40.61514
+                                    ],
+                                    [
+                                        -75.38443,
+                                        40.61479
+                                    ],
+                                    [
+                                        -75.38508,
+                                        40.6178
+                                    ],
+                                    [
+                                        -75.3871,
+                                        40.61787
+                                    ],
+                                    [
+                                        -75.38685,
+                                        40.62244
+                                    ],
+                                    [
+                                        -75.38365,
+                                        40.62244
+                                    ],
+                                    [
+                                        -75.38325,
+                                        40.62306
+                                    ],
+                                    [
+                                        -75.38314,
+                                        40.62365
+                                    ],
+                                    [
+                                        -75.38353,
+                                        40.62439
+                                    ],
+                                    [
+                                        -75.38484,
+                                        40.62493
+                                    ],
+                                    [
+                                        -75.38605,
+                                        40.62631
+                                    ],
+                                    [
+                                        -75.38855,
+                                        40.62806
+                                    ],
+                                    [
+                                        -75.38895,
+                                        40.62919
+                                    ],
+                                    [
+                                        -75.38839,
+                                        40.63017
+                                    ],
+                                    [
+                                        -75.38835,
+                                        40.63327
+                                    ],
+                                    [
+                                        -75.38771,
+                                        40.63313
+                                    ],
+                                    [
+                                        -75.38684,
+                                        40.63227
+                                    ],
+                                    [
+                                        -75.38541,
+                                        40.63167
+                                    ],
+                                    [
+                                        -75.3702,
+                                        40.6305
+                                    ],
+                                    [
+                                        -75.36238,
+                                        40.63789
+                                    ],
+                                    [
+                                        -75.35651,
+                                        40.63998
+                                    ],
+                                    [
+                                        -75.34937,
+                                        40.64302
+                                    ],
+                                    [
+                                        -75.34484,
+                                        40.64517
+                                    ],
+                                    [
+                                        -75.34445,
+                                        40.64477
+                                    ],
+                                    [
+                                        -75.34456,
+                                        40.64466
+                                    ],
+                                    [
+                                        -75.3439,
+                                        40.64042
+                                    ],
+                                    [
+                                        -75.34319,
+                                        40.6372
+                                    ],
+                                    [
+                                        -75.34346,
+                                        40.63713
+                                    ]
+                                ]
+                            ]
+                        },
+                        "__typename": "Neighborhood"
+                    }
+                ],
+                "search_areas": [
+                    {
+                        "city": "bethlehem",
+                        "state_code": "pa",
+                        "__typename": "SearchArea"
+                    }
+                ],
+                "city": {
+                    "county_needed_for_uniq": false,
+                    "slug_id": "Bethlehem_PA",
+                    "__typename": "City"
+                },
+                "postal_code": {
+                    "geo_statistics": {
+                        "housing_market": {
+                            "hot_market_badge": "Hot",
+                            "__typename": "HousingMarket"
+                        },
+                        "__typename": "GeoStatistics"
+                    },
+                    "__typename": "PostalCode"
+                },
+                "__typename": "HomeLocation"
+            },
+            "open_houses": null,
+            "permalink": "436-E-Locust-St_Bethlehem_PA_18018_M38811-10142",
+            "photo_count": 41,
+            "photos": [
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3358721672s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "patio",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "porch",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1504539432s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "balcony",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "porch",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1575335663s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "porch",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m564777714s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "patio",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "porch",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2574783926s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "balcony",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "patio",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "porch",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1308477591s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m739437387s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m482921455s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1188932875s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m408250197s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1964648359s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2220895073s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m254986867s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1283483954s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "kitchen",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m4137236305s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "kitchen",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1930664166s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "kitchen",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2618246352s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3957571187s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m890402433s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "bathroom",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m598023935s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3894504994s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "corridor",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m588739098s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2846334159s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1240251805s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "bathroom",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3454875589s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3863641765s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m294701151s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "other_interiors",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3826948456s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "utility_room",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2528629123s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "garage_indoor",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m402448981s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "patio",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "porch",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m133152904s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "house_view",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "porch",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "yard",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "back_side",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "incomplete",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2460204844s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "house_view",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "yard",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "back_side",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "incomplete",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1808220030s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "house_view",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "yard",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "back_side",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "incomplete",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m110808279s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "yard",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2829347721s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "garage",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "house_view",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "road",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "no_house",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m339653145s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "garage",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "house_view",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "road",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "incomplete",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "no_house",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2514467217s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "garage_indoor",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1516246138s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "house_view",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "patio",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "porch",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "back_side",
+                            "__typename": "Tag"
+                        },
+                        {
+                            "label": "incomplete",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2858127809s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "farm",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2787856835s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "farm",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                },
+                {
+                    "title": null,
+                    "description": null,
+                    "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m4064701520s.jpg",
+                    "type": "realtordotcom_mls_listing_image",
+                    "tags": [
+                        {
+                            "label": "road",
+                            "__typename": "Tag"
+                        }
+                    ],
+                    "__typename": "HomePhoto"
+                }
+            ],
+            "price_per_sqft": 118,
+            "primary_photo": {
+                "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3358721672s.jpg",
+                "__typename": "HomePhoto"
+            },
+            "hoa": {
+                "fee": 0,
+                "__typename": "HomeHOA"
+            },
+            "property_id": "3881110142",
+            "provider_url": null,
+            "source": {
+                "days_on_mls": null,
+                "agents": [
+                    {
+                        "agent_id": "1006194",
+                        "agent_name": "Barbara Gorman",
+                        "agent_email": null,
+                        "agent_phone": null,
+                        "id": "LHPA",
+                        "office_id": "1000614",
+                        "office_name": null,
+                        "office_phone": null,
+                        "type": "seller",
+                        "__typename": "MlsAgent"
+                    }
+                ],
+                "disclaimer": {
+                    "href": null,
+                    "logo": null,
+                    "text": "©2024  Greater Lehigh Valley REALTORS®. All rights reserved.",
+                    "__typename": "MlsDisclaimer"
+                },
+                "copyrightnotice": null,
+                "id": "LHPA",
+                "plan_id": null,
+                "listing_id": "747055",
+                "name": "LehighValley",
+                "raw": {
+                    "status": "Available",
+                    "style": "Colonial",
+                    "tax_amount": null,
+                    "__typename": "MlsRawData"
+                },
+                "type": "mls",
+                "community_id": null,
+                "__typename": "MlsSource"
+            },
+            "status": "for_sale",
+            "suppression_flags": {
+                "has_suppress_foreclosure": true
+            },
+            "tags": [
+                "central_air",
+                "community_outdoor_space",
+                "dishwasher",
+                "forced_air",
+                "laundry_room",
+                "washer_dryer",
+                "two_or_more_stories",
+                "garage_1_or_more",
+                "basement",
+                "fenced_yard",
+                "front_porch",
+                "efficient",
+                "medicalcare",
+                "fixer_upper"
+            ],
+            "__typename": "Home"
+        },
+        "get_augmented_gallery": {
+            "photo_categories": [
+                {
+                    "key": "all_photos",
+                    "category": "All Photos",
+                    "detailedText": null,
+                    "photoCount": 41,
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3358721672s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1504539432s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1575335663s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m564777714s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2574783926s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1308477591s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m739437387s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m482921455s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1188932875s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m408250197s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1964648359s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2220895073s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m254986867s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1283483954s.jpg",
+                            "tag": "kitchen",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m4137236305s.jpg",
+                            "tag": "kitchen",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1930664166s.jpg",
+                            "tag": "kitchen",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2618246352s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3957571187s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m890402433s.jpg",
+                            "tag": "bathroom",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m598023935s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3894504994s.jpg",
+                            "tag": "corridor",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m588739098s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2846334159s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1240251805s.jpg",
+                            "tag": "bathroom",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3454875589s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3863641765s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m294701151s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3826948456s.jpg",
+                            "tag": "utility_room",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2528629123s.jpg",
+                            "tag": "garage_indoor",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m402448981s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m133152904s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2460204844s.jpg",
+                            "tag": "yard",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1808220030s.jpg",
+                            "tag": "yard",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m110808279s.jpg",
+                            "tag": "yard",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2829347721s.jpg",
+                            "tag": "garage",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m339653145s.jpg",
+                            "tag": "road",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2514467217s.jpg",
+                            "tag": "garage_indoor",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1516246138s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2858127809s.jpg",
+                            "tag": "farm",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2787856835s.jpg",
+                            "tag": "farm",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m4064701520s.jpg",
+                            "tag": "road",
+                            "__typename": "PhotoTag"
+                        }
+                    ],
+                    "__typename": "PhotoCategories"
+                },
+                {
+                    "key": "exterior",
+                    "category": "Exterior",
+                    "detailedText": [
+                        {
+                            "subCategory": "Exterior and Lot Features",
+                            "text": [
+                                "Covered Porch",
+                                "Curbs",
+                                "Fenced Yard",
+                                "Porch",
+                                "Screens",
+                                "Sidewalk",
+                                "Storm Door"
+                            ],
+                            "__typename": "DetailedText"
+                        }
+                    ],
+                    "photoCount": 16,
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3358721672s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1504539432s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1575335663s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m564777714s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2574783926s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m402448981s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m133152904s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2460204844s.jpg",
+                            "tag": "yard",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1808220030s.jpg",
+                            "tag": "yard",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m110808279s.jpg",
+                            "tag": "yard",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2829347721s.jpg",
+                            "tag": "garage",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m339653145s.jpg",
+                            "tag": "road",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1516246138s.jpg",
+                            "tag": "porch",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2858127809s.jpg",
+                            "tag": "farm",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2787856835s.jpg",
+                            "tag": "farm",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m4064701520s.jpg",
+                            "tag": "road",
+                            "__typename": "PhotoTag"
+                        }
+                    ],
+                    "__typename": "PhotoCategories"
+                },
+                {
+                    "key": "kitchen",
+                    "category": "Kitchen",
+                    "detailedText": null,
+                    "photoCount": 3,
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1283483954s.jpg",
+                            "tag": "kitchen",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m4137236305s.jpg",
+                            "tag": "kitchen",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1930664166s.jpg",
+                            "tag": "kitchen",
+                            "__typename": "PhotoTag"
+                        }
+                    ],
+                    "__typename": "PhotoCategories"
+                },
+                {
+                    "key": "bathroom",
+                    "category": "Bathroom",
+                    "detailedText": [
+                        {
+                            "subCategory": "Bathrooms",
+                            "text": [
+                                "Total Bathrooms: 2",
+                                "Full Bathrooms: 2"
+                            ],
+                            "__typename": "DetailedText"
+                        }
+                    ],
+                    "photoCount": 2,
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m890402433s.jpg",
+                            "tag": "bathroom",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1240251805s.jpg",
+                            "tag": "bathroom",
+                            "__typename": "PhotoTag"
+                        }
+                    ],
+                    "__typename": "PhotoCategories"
+                },
+                {
+                    "key": "more",
+                    "category": "More",
+                    "detailedText": [
+                        {
+                            "subCategory": "Garage and Parking",
+                            "text": [
+                                "Garage Spaces: 1",
+                                "Garage Description: Detached, Off & On Street"
+                            ],
+                            "__typename": "DetailedText"
+                        }
+                    ],
+                    "photoCount": 20,
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1308477591s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m739437387s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m482921455s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1188932875s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m408250197s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m1964648359s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2220895073s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m254986867s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2618246352s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3957571187s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m598023935s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3894504994s.jpg",
+                            "tag": "corridor",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m588739098s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2846334159s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3454875589s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3863641765s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m294701151s.jpg",
+                            "tag": "other_interiors",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m3826948456s.jpg",
+                            "tag": "utility_room",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2528629123s.jpg",
+                            "tag": "garage_indoor",
+                            "__typename": "PhotoTag"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/53765d4986eb61e81b56326aa9fbb342l-m2514467217s.jpg",
+                            "tag": "garage_indoor",
+                            "__typename": "PhotoTag"
+                        }
+                    ],
+                    "__typename": "PhotoCategories"
+                }
+            ],
+            "__typename": "HomePhotoCategories"
+        }
+    }
+}

@@ -1,0 +1,2998 @@
+{
+    "data": {
+        "home_search": {
+            "count": 26,
+            "total": 26,
+            "search_promotion": {
+                "names": [
+                    "CITY"
+                ],
+                "slots": [],
+                "promoted_properties": [
+                    []
+                ]
+            },
+            "mortgage_params": {
+                "interest_rate": 6.697
+            },
+            "properties": [
+                {
+                    "property_id": "4051334545",
+                    "list_price": 299000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/3b55ce2af4bbd50c87ff93e2ae7cfd24l-m3345573336s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973741534",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "POPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "5420-N-Halbea-St_Bethlehem_PA_18017_M40513-34545",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "1.5",
+                        "sqft": 2401,
+                        "lot_sqft": 12197,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 203000,
+                        "sold_date": "2013-06-20"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5420%20N%20Halbea%20St%2C%20Bethlehem%2C%20PA%2018017&size=640x480&source=outdoor&signature=NuI7wTA_ynWbJfTwUFmobg8UKKs=",
+                        "address": {
+                            "line": "5420 N Halbea St",
+                            "postal_code": "18017",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.677227,
+                                "lon": -75.433633
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "KLRW - Keller Williams Real Estate",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": true,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-17T11:36:50.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/3b55ce2af4bbd50c87ff93e2ae7cfd24l-m3345573336s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/3b55ce2af4bbd50c87ff93e2ae7cfd24l-m269681021s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3824189424",
+                    "list_price": 230000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/398a2bd0458d9c1bcd53fd59f2b6b5e1l-m2621032089s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973911428",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "listing_owner_brand.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "advantage_brand"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "4618-Cheryl-Dr_Bethlehem_PA_18017_M38241-89424",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 2,
+                        "baths_consolidated": "2",
+                        "sqft": 1134,
+                        "lot_sqft": null,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "condos",
+                        "sub_type": "condo",
+                        "sold_price": 129320,
+                        "sold_date": "2014-07-24"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=4618%20Cheryl%20Dr%2C%20Hanover%20Township%2C%20PA%2018017&size=640x480&source=outdoor&signature=i2f1tuYnsfmS77vHFdteI05NZdU=",
+                        "address": {
+                            "line": "4618 Cheryl Dr",
+                            "postal_code": "18017",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Hanover Township",
+                            "coordinate": {
+                                "lat": 40.677351,
+                                "lon": -75.387887
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "BHHS Fox & Roach Bethlehem",
+                            "photo": "https://ap.rdcpix.com/e56cc2c8cd49f2df40f5e35c54f89a3fg-c1854672103s.jpg"
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": true,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-21T22:38:28.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/398a2bd0458d9c1bcd53fd59f2b6b5e1l-m2621032089s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/398a2bd0458d9c1bcd53fd59f2b6b5e1l-m2835835297s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3719375952",
+                    "list_price": 310000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/fbce06e085ea42c4272ee2105b82f03al-m2158578673s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973650843",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "16-W-Washington-Ave_Bethlehem_PA_18018_M37193-75952",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "2.5",
+                        "sqft": 2126,
+                        "lot_sqft": 8407,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": null,
+                        "sold_date": null
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=16%20W%20Washington%20Ave%2C%20Bethlehem%2C%20PA%2018018&size=640x480&source=outdoor&signature=gscYahFvEQ9kmBXXCcOi6spjYwM=",
+                        "address": {
+                            "line": "16 W Washington Ave",
+                            "postal_code": "18018",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.635299,
+                                "lon": -75.378605
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Coldwell Banker Heritage R E",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": true,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-15T14:02:41.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/fbce06e085ea42c4272ee2105b82f03al-m2158578673s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/fbce06e085ea42c4272ee2105b82f03al-m1263417523s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "4284663034",
+                    "list_price": 397000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/9604c1b3e9481c7dd3b4a60e59c6c880l-m3686142497s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973202809",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "1470-5th-St_Bethlehem_PA_18020_M42846-63034",
+                    "price_reduced_amount": 18000,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "2.5",
+                        "sqft": 2248,
+                        "lot_sqft": 14985,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 327000,
+                        "sold_date": "2022-05-09"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1470%205th%20St%2C%20Bethlehem%2C%20PA%2018020&size=640x480&source=outdoor&signature=1o6BFoAIYgyuWOM04FdhtTC2gVM=",
+                        "address": {
+                            "line": "1470 5th St",
+                            "postal_code": "18020",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.635964,
+                                "lon": -75.326778
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "BHHS - Choice Properties",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": true,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-03T15:26:34.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/9604c1b3e9481c7dd3b4a60e59c6c880l-m3686142497s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/9604c1b3e9481c7dd3b4a60e59c6c880l-m1210688427s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "4222466176",
+                    "list_price": 325000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/5a8d80e7536d5092a8f5c04de2dd5a56l-m1365528090s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973232274",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "2805-Roosevelt-St_Bethlehem_PA_18020_M42224-66176",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "1.5",
+                        "sqft": 1673,
+                        "lot_sqft": 8799,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": null,
+                        "sold_date": null
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=2805%20Roosevelt%20St%2C%20Bethlehem%2C%20PA%2018020&size=640x480&source=outdoor&signature=o27cbLJW6RsevHnek5U0bKurQDw=",
+                        "address": {
+                            "line": "2805 Roosevelt St",
+                            "postal_code": "18020",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.64297,
+                                "lon": -75.342042
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Realty One Group Supreme",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-04T00:17:28.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/5a8d80e7536d5092a8f5c04de2dd5a56l-m1365528090s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/5a8d80e7536d5092a8f5c04de2dd5a56l-m1834794753s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3442858287",
+                    "list_price": 320000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/8b8aa5d5305cacba0c8ae0628ca2883fl-b2878921750s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973621388",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "listing_owner_brand.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "advantage_brand"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "730-Gottwald-Dr_Bethlehem_PA_18015_M34428-58287",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "1.5",
+                        "sqft": 2452,
+                        "lot_sqft": 17729,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": null,
+                        "sold_date": null
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=730%20Gottwald%20Dr%2C%20Bethlehem%2C%20PA%2018015&size=640x480&source=outdoor&signature=RzVbJ0vaoeRiCXADgKge3k3azzQ=",
+                        "address": {
+                            "line": "730 Gottwald Dr",
+                            "postal_code": "18015",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.592575,
+                                "lon": -75.39947
+                            }
+                        },
+                        "county": {
+                            "name": "Lehigh",
+                            "fips_code": "42077"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "RE/MAX Real Estate-Bethehem",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": true,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-14T16:56:37.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/8b8aa5d5305cacba0c8ae0628ca2883fl-b2878921750s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/8b8aa5d5305cacba0c8ae0628ca2883fl-b4253535987s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "4140667432",
+                    "list_price": 232900,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/63ae60d12d5ce038e0aa70139236acd0l-m759409959s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2972356823",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "listing_owner_brand.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "advantage_brand"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "1812-5th-St_Bethlehem_PA_18020_M41406-67432",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 2,
+                        "baths_consolidated": "1",
+                        "sqft": 828,
+                        "lot_sqft": 4070,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 115000,
+                        "sold_date": "2020-03-23"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1812%205th%20St%2C%20Bethlehem%2C%20PA%2018020&size=640x480&source=outdoor&signature=iQX6sIglZZhfv8pDg91zO7Zmyq4=",
+                        "address": {
+                            "line": "1812 5th St",
+                            "postal_code": "18020",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.641656,
+                                "lon": -75.327615
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "BHHS Fox & Roach Center Valley",
+                            "photo": "https://ap.rdcpix.com/e56cc2c8cd49f2df40f5e35c54f89a3fg-c1854672103s.jpg"
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-09-20T04:15:30.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/63ae60d12d5ce038e0aa70139236acd0l-m759409959s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/63ae60d12d5ce038e0aa70139236acd0l-m3474322650s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "4990442718",
+                    "list_price": 108000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/2852f07779a4ccd87edd32f98603af33l-m2881632378s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973839942",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "416-Wyandotte-St_Bethlehem_PA_18015_M49904-42718",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": null,
+                        "baths_consolidated": "0.5",
+                        "sqft": 385,
+                        "lot_sqft": 1655,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 30388,
+                        "sold_date": "2015-03-25"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=416%20Wyandotte%20St%2C%20Bethlehem%2C%20PA%2018015&size=640x480&source=outdoor&signature=wq3IYx5RJSpfRrjUZ_G7s6j-OkY=",
+                        "address": {
+                            "line": "416 Wyandotte St",
+                            "postal_code": "18015",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.609877,
+                                "lon": -75.385181
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Sunny Curb Appeal LLC Real Estate Office",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": true,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-19T18:50:29.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/2852f07779a4ccd87edd32f98603af33l-m2881632378s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/2852f07779a4ccd87edd32f98603af33l-m927835480s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "4822992317",
+                    "list_price": 365000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/6d4264bcaf03fc6c96a730cce0c3312bl-m1407485701s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973056147",
+                    "matterport": false,
+                    "virtual_tours": [
+                        {
+                            "href": "https://youtu.be/qQyArdiGrP0",
+                            "type": null
+                        }
+                    ],
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "6989-Bergen-Cir_Bethlehem_PA_18017_M48229-92317",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "2",
+                        "sqft": 1364,
+                        "lot_sqft": 25700,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 255000,
+                        "sold_date": "2019-08-30"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=6989%20Bergen%20Cir%2C%20East%20Allen%20Township%2C%20PA%2018017&size=640x480&source=outdoor&signature=fuB6sovJwOU3wChXsNDqjho06j8=",
+                        "address": {
+                            "line": "6989 Bergen Cir",
+                            "postal_code": "18017",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "East Allen Township",
+                            "coordinate": {
+                                "lat": 40.690559,
+                                "lon": -75.409588
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Coldwell Banker Hearthside",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-01T16:04:59.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/6d4264bcaf03fc6c96a730cce0c3312bl-m1407485701s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/6d4264bcaf03fc6c96a730cce0c3312bl-m1304165035s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3295650813",
+                    "list_price": 889900,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/03c84871dc4c9d5501c46056ce26e349l-m3187701813s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2966851395",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "3696-Fire-Ln_Bethlehem_PA_18015_M32956-50813",
+                    "price_reduced_amount": 109100,
+                    "description": {
+                        "name": null,
+                        "beds": 4,
+                        "baths_consolidated": "4.5",
+                        "sqft": 2837,
+                        "lot_sqft": 656449,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 575000,
+                        "sold_date": "2023-01-10"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=3696%20Fire%20Ln%2C%20Lower%20Saucon%20Township%2C%20PA%2018015&size=640x480&source=outdoor&signature=FcILUfCyk7O1pGCOZIf5bOxvPG4=",
+                        "address": {
+                            "line": "3696 Fire Ln",
+                            "postal_code": "18015",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Lower Saucon Township",
+                            "coordinate": {
+                                "lat": 40.584968,
+                                "lon": -75.398227
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Keller Williams Real Estate",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": false,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-05-02T00:48:24.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/03c84871dc4c9d5501c46056ce26e349l-m3187701813s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/03c84871dc4c9d5501c46056ce26e349l-m1809581482s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3673862864",
+                    "list_price": 895000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/c2cd0c237b6103d65e821557b7453776l-m471430223s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2971704783",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": "Carol C Dorey Real Estate"
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "1643-Saucon-Valley-Rd_Bethlehem_PA_18015_M36738-62864",
+                    "price_reduced_amount": 70000,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "2",
+                        "sqft": 2525,
+                        "lot_sqft": 81457,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 372000,
+                        "sold_date": "2008-08-18"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1643%20Saucon%20Valley%20Rd%2C%20Bethlehem%2C%20PA%2018015&size=640x480&source=outdoor&signature=pGyci0i3lEvqK_8GNjVrQIcvKMQ=",
+                        "address": {
+                            "line": "1643 Saucon Valley Rd",
+                            "postal_code": "18015",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.569898,
+                                "lon": -75.369082
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": [
+                        {
+                            "start_date": "2024-10-26T13:00:00",
+                            "end_date": "2024-10-26T15:00:00"
+                        }
+                    ],
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Dorey, Carol C Real Estate",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": true,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-09-05T05:17:30.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/c2cd0c237b6103d65e821557b7453776l-m471430223s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/c2cd0c237b6103d65e821557b7453776l-m1062862808s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "4362560226",
+                    "list_price": 474950,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/0dde86b3f0f92ed7ed6f3949b424f479l-m1620585131s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2971084525",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "3536-Temple-Ct_Bethlehem_PA_18020_M43625-60226",
+                    "price_reduced_amount": 1000,
+                    "description": {
+                        "name": null,
+                        "beds": 5,
+                        "baths_consolidated": "2.5",
+                        "sqft": 3592,
+                        "lot_sqft": 10019,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 179900,
+                        "sold_date": "2002-07-03"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=3536%20Temple%20Ct%2C%20Bethlehem%2C%20PA%2018020&size=640x480&source=outdoor&signature=qjbhnota2Sz8nwDLpxHpkqdvkbw=",
+                        "address": {
+                            "line": "3536 Temple Ct",
+                            "postal_code": "18020",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.667439,
+                                "lon": -75.330575
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Keller Williams Real Estate",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": true,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-08-22T22:38:25.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/0dde86b3f0f92ed7ed6f3949b424f479l-m1620585131s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/0dde86b3f0f92ed7ed6f3949b424f479l-m3113411995s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3808441554",
+                    "list_price": 284000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/2cdcf669e2e049548d98cf146657fa2bl-m2009691323s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2970403795",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "1430-Wood-St_Bethlehem_PA_18017_M38084-41554",
+                    "price_reduced_amount": 3000,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "1.5",
+                        "sqft": 1095,
+                        "lot_sqft": 7100,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 170000,
+                        "sold_date": "2007-06-01"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1430%20Wood%20St%2C%20Bethlehem%2C%20PA%2018017&size=640x480&source=outdoor&signature=64NiohV7jvatr3QcoaPPS0R-_e4=",
+                        "address": {
+                            "line": "1430 Wood St",
+                            "postal_code": "18017",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.63145,
+                                "lon": -75.364203
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Home Team Real Estate",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": true,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-08-05T19:11:26.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/2cdcf669e2e049548d98cf146657fa2bl-m2009691323s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/2cdcf669e2e049548d98cf146657fa2bl-m2956924165s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "4718544744",
+                    "list_price": 538500,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/363530471a5dda4f8dbb695f53f14290l-m923866841s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2971621675",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "co_broke"
+                        ],
+                        "brand_name": "basic_opt_in"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": "Homeway Real Estate, LLC"
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "2600-Union-Ct_Bethlehem_PA_18017_M47185-44744",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 2,
+                        "baths_consolidated": "2",
+                        "sqft": 2373,
+                        "lot_sqft": null,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "condos",
+                        "sub_type": "condo",
+                        "sold_price": 513500,
+                        "sold_date": "2023-07-06"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=2600%20Union%20Ct%2C%20Bethlehem%2C%20PA%2018017&size=640x480&source=outdoor&signature=2079KLpLprVWbDMFJHQh-6GjdLQ=",
+                        "address": {
+                            "line": "2600 Union Ct",
+                            "postal_code": "18017",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.647646,
+                                "lon": -75.390439
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Homeway Real Estate, LLC",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-09-04T01:35:32.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/363530471a5dda4f8dbb695f53f14290l-m923866841s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/363530471a5dda4f8dbb695f53f14290l-m1350674188s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3525238764",
+                    "list_price": 344900,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/c5f2213b325457f8e6d1fdce0c17fdecl-m1342562784s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2971019033",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "co_broke"
+                        ],
+                        "brand_name": "basic_opt_in"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "3112-Honeysuckle-Rd_Bethlehem_PA_18015_M35252-38764",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 2,
+                        "baths_consolidated": "1",
+                        "sqft": 1008,
+                        "lot_sqft": 14073,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 168000,
+                        "sold_date": "2006-02-15"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=3112%20Honeysuckle%20Rd%2C%20Bethlehem%2C%20PA%2018015&size=640x480&source=outdoor&signature=rQ9j0rhFzgBhj90Oysclm6y6bTc=",
+                        "address": {
+                            "line": "3112 Honeysuckle Rd",
+                            "postal_code": "18015",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.567912,
+                                "lon": -75.424709
+                            }
+                        },
+                        "county": {
+                            "name": "Lehigh",
+                            "fips_code": "42077"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Ai Brokers LLC",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-08-21T17:22:53.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/c5f2213b325457f8e6d1fdce0c17fdecl-m1342562784s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/c5f2213b325457f8e6d1fdce0c17fdecl-m3822636185s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "4205100246",
+                    "list_price": 499900,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/e835460a84f58c02764eacc8bc8523b4l-b3726872606s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2971624198",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "listing_owner_brand.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "advantage_brand"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "2416-Willow-Park-Rd_Bethlehem_PA_18020_M42051-00246",
+                    "price_reduced_amount": 25100,
+                    "description": {
+                        "name": null,
+                        "beds": 5,
+                        "baths_consolidated": "2.5",
+                        "sqft": 2076,
+                        "lot_sqft": 84942,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 215000,
+                        "sold_date": "2005-10-26"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=2416%20Willow%20Park%20Rd%2C%20Bethlehem%2C%20PA%2018020&size=640x480&source=outdoor&signature=8lcQOFXXyxy8UocpFDArUJ_iiuY=",
+                        "address": {
+                            "line": "2416 Willow Park Rd",
+                            "postal_code": "18020",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.650518,
+                                "lon": -75.332437
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "RE/MAX Unlimited Real Estate",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": true,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-09-04T03:44:35.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/e835460a84f58c02764eacc8bc8523b4l-b3726872606s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/e835460a84f58c02764eacc8bc8523b4l-b1130187735s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3909648334",
+                    "list_price": 299900,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/aa91738a40d53df7a7537a5f7d585eaal-m2362929408s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2972074147",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": "BHHS Homesale Realty- Reading Berks"
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "2106-Iris-Pl_Bethlehem_PA_18018_M39096-48334",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 4,
+                        "baths_consolidated": "2",
+                        "sqft": 1006,
+                        "lot_sqft": 12830,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": null,
+                        "sold_date": null
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=2106%20Iris%20Pl%2C%20Bethlehem%2C%20PA%2018018&size=640x480&source=outdoor&signature=Qs8YWtfzoIv4kW0_LSjzn4OcZ-g=",
+                        "address": {
+                            "line": "2106 Iris Pl",
+                            "postal_code": "18018",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.642916,
+                                "lon": -75.41943
+                            }
+                        },
+                        "county": {
+                            "name": "Lehigh",
+                            "fips_code": "42077"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Berkshire Hathaway HomeServices Homesale Realty - Reading/Berks",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": true,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-09-13T15:01:58.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/aa91738a40d53df7a7537a5f7d585eaal-m2362929408s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/aa91738a40d53df7a7537a5f7d585eaal-m2017915141s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "4015204376",
+                    "list_price": 550000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/d85d761fcaac44f42db0956d37546f98l-m602704956s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973074650",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "1504-Colgate-Dr_Bethlehem_PA_18017_M40152-04376",
+                    "price_reduced_amount": 15000,
+                    "description": {
+                        "name": null,
+                        "beds": 5,
+                        "baths_consolidated": "2",
+                        "sqft": 2688,
+                        "lot_sqft": 14636,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 290000,
+                        "sold_date": "2004-10-05"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1504%20Colgate%20Dr%2C%20Hanover%20Township%2C%20PA%2018017&size=640x480&source=outdoor&signature=5SJgo-1kxOiRTONnpKYybwT5Lsc=",
+                        "address": {
+                            "line": "1504 Colgate Dr",
+                            "postal_code": "18017",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Hanover Township",
+                            "coordinate": {
+                                "lat": 40.680026,
+                                "lon": -75.412744
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": [
+                        {
+                            "start_date": "2024-10-26T13:00:00",
+                            "end_date": "2024-10-26T15:00:00"
+                        }
+                    ],
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Coldwell Banker Heritage R E",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": true,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-01T20:05:36.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/d85d761fcaac44f42db0956d37546f98l-m602704956s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/d85d761fcaac44f42db0956d37546f98l-m3596866103s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "4070134375",
+                    "list_price": 325000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/2b67010a529ded1aba4ebb00b8d33eabl-m1203387983s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973184973",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "1725-Mark-Twain-Cir_Bethlehem_PA_18017_M40701-34375",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "1",
+                        "sqft": 1330,
+                        "lot_sqft": 13090,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": null,
+                        "sold_date": null
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1725%20Mark%20Twain%20Cir%2C%20Bethlehem%2C%20PA%2018017&size=640x480&source=outdoor&signature=ZDc4ycLKHqHkRxsItEeV6KdVXVY=",
+                        "address": {
+                            "line": "1725 Mark Twain Cir",
+                            "postal_code": "18017",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.659129,
+                                "lon": -75.412541
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Keller Williams Real Estate-Be",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": true,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-03T04:34:19.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/2b67010a529ded1aba4ebb00b8d33eabl-m1203387983s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/2b67010a529ded1aba4ebb00b8d33eabl-m2112278885s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3760468914",
+                    "list_price": 334995,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/41a167779a2b121889a70be13a69855fl-m180357873s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973405821",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "co_broke"
+                        ],
+                        "brand_name": "basic_opt_in"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "3275-Bingen-Rd_Bethlehem_PA_18015_M37604-68914",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "1.5",
+                        "sqft": 1356,
+                        "lot_sqft": 18200,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": null,
+                        "sold_date": null
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=3275%20Bingen%20Rd%2C%20Bethlehem%2C%20PA%2018015&size=640x480&source=outdoor&signature=Q1Kqui9t1Vv_icanvD533tYvlxQ=",
+                        "address": {
+                            "line": "3275 Bingen Rd",
+                            "postal_code": "18015",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.558143,
+                                "lon": -75.353969
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Prime Realty Partners",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": true,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-08T18:09:07.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/41a167779a2b121889a70be13a69855fl-m180357873s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/41a167779a2b121889a70be13a69855fl-m2230505971s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3931232835",
+                    "list_price": 19100,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/8d137811466fb41b17f395fc915826fcl-m1645931518s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2973690235",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": false,
+                            "show_veterans_united": false
+                        }
+                    },
+                    "community": null,
+                    "permalink": "1220-Center-St_Bethlehem_PA_18018_M39312-32835",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": null,
+                        "baths_consolidated": null,
+                        "sqft": null,
+                        "lot_sqft": 2200,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "land",
+                        "sub_type": null,
+                        "sold_price": 106000,
+                        "sold_date": "2004-11-10"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1220%20Center%20St%2C%20Bethlehem%2C%20PA%2018018&size=640x480&source=outdoor&signature=XG_FWooCW-NOe48_xeSGHs6dSxo=",
+                        "address": {
+                            "line": "1220 Center St",
+                            "postal_code": "18018",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.630343,
+                                "lon": -75.37478
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Real Home Services and Solutions, Inc.",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": true,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-10-16T11:14:51.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/8d137811466fb41b17f395fc915826fcl-m1645931518s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/8d137811466fb41b17f395fc915826fcl-m2010331309s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3249217449",
+                    "list_price": 1850000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/d675f2a147a531edb39efb9a9b1b57c2l-m2928130425s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2968295589",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "1667-Jean-Ln_Bethlehem_PA_18015_M32492-17449",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 4,
+                        "baths_consolidated": "3.5",
+                        "sqft": 4707,
+                        "lot_sqft": 81893,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 739000,
+                        "sold_date": "2019-08-02"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1667%20Jean%20Ln%2C%20Bethlehem%2C%20PA%2018015&size=640x480&source=outdoor&signature=--g58oPI_YkYN_qA4m7yMaXaIww=",
+                        "address": {
+                            "line": "1667 Jean Ln",
+                            "postal_code": "18015",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.570293,
+                                "lon": -75.367628
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Howard Hanna - Lehigh Valley - The Frederick Group",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": true,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-06-07T22:32:10.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/d675f2a147a531edb39efb9a9b1b57c2l-m2928130425s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/d675f2a147a531edb39efb9a9b1b57c2l-m77613178s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "3338432115",
+                    "list_price": 600000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/5d895c11607d7b82242aa4d2da584568l-m2686693768s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2971148492",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "listing_owner_brand.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "advantage_brand"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "1662-Kevin-Dr_Bethlehem_PA_18015_M33384-32115",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "2.5",
+                        "sqft": 2628,
+                        "lot_sqft": 25026,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": 285000,
+                        "sold_date": "2002-05-14"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1662%20Kevin%20Dr%2C%20Bethlehem%2C%20PA%2018015&size=640x480&source=outdoor&signature=o8OLwzuCy0rDqioe9o-y0IRS0gc=",
+                        "address": {
+                            "line": "1662 Kevin Dr",
+                            "postal_code": "18015",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.582608,
+                                "lon": -75.366207
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "BHHS Fox & Roach Macungie",
+                            "photo": "https://ap.rdcpix.com/e56cc2c8cd49f2df40f5e35c54f89a3fg-c1854672103s.jpg"
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": true,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-08-24T04:15:23.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/5d895c11607d7b82242aa4d2da584568l-m2686693768s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/5d895c11607d7b82242aa4d2da584568l-m3121368656s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "9492458051",
+                    "list_price": 792000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/ef1adf50b65dcb0b1250fcb2cc8f9dacl-m3635345611s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2968794790",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "listing_owner_brand.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "advantage_brand"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": "BHHS Fox & Roach - Center Valley"
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "4315-Stonebridge-Dr_Bethlehem_PA_18015_M94924-58051",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "2.5",
+                        "sqft": null,
+                        "lot_sqft": 6606,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": null,
+                        "sold_date": null
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=4315%20Stonebridge%20Dr%2C%20Bethlehem%2C%20PA%2018015&size=640x480&source=outdoor&signature=czA-J9POr3nDxuqTt6WucY2HygU=",
+                        "address": {
+                            "line": "4315 Stonebridge Dr",
+                            "postal_code": "18015",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.568245,
+                                "lon": -75.388939
+                            }
+                        },
+                        "county": {
+                            "name": "Lehigh",
+                            "fips_code": "42077"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "BHHS Fox & Roach Center Valley",
+                            "photo": "https://ap.rdcpix.com/e56cc2c8cd49f2df40f5e35c54f89a3fg-c1854672103s.jpg"
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": true,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-06-22T00:11:06.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/ef1adf50b65dcb0b1250fcb2cc8f9dacl-m3635345611s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "9082122794",
+                    "list_price": 806000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/9c6242fb7930e9a0cfaf20ce0ce56359l-m350376329s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2968794793",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker",
+                            "listing_owner_brand.broker",
+                            "co_broke"
+                        ],
+                        "brand_name": "advantage_brand"
+                    },
+                    "source": {
+                        "id": "PHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": true,
+                            "show_veterans_united": true
+                        }
+                    },
+                    "community": null,
+                    "permalink": "4307-Stonebridge-Dr_Bethlehem_PA_18015_M90821-22794",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": 3,
+                        "baths_consolidated": "2",
+                        "sqft": null,
+                        "lot_sqft": 6068,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "single_family",
+                        "sub_type": null,
+                        "sold_price": null,
+                        "sold_date": null
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=4307%20Stonebridge%20Dr%2C%20Bethlehem%2C%20PA%2018015&size=640x480&source=outdoor&signature=ZzI9BKqTxk97IGdnjnQnZ6fc6sA=",
+                        "address": {
+                            "line": "4307 Stonebridge Dr",
+                            "postal_code": "18015",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.568604,
+                                "lon": -75.389
+                            }
+                        },
+                        "county": {
+                            "name": "Lehigh",
+                            "fips_code": "42077"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "BHHS Fox & Roach Center Valley",
+                            "photo": "https://ap.rdcpix.com/e56cc2c8cd49f2df40f5e35c54f89a3fg-c1854672103s.jpg"
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": true,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-06-22T00:11:06.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/9c6242fb7930e9a0cfaf20ce0ce56359l-m350376329s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                },
+                {
+                    "property_id": "4293357371",
+                    "list_price": 400000,
+                    "search_promotions": null,
+                    "primary_photo": {
+                        "href": "https://ap.rdcpix.com/c33642424ba37fdffda16b2dbaaf3b56l-m2553368517s.jpg"
+                    },
+                    "rent_to_own": null,
+                    "listing_id": "2970814792",
+                    "matterport": false,
+                    "virtual_tours": null,
+                    "status": "for_sale",
+                    "products": {
+                        "products": [
+                            "core.agent",
+                            "core.broker"
+                        ],
+                        "brand_name": "essentials"
+                    },
+                    "source": {
+                        "id": "LHPA",
+                        "type": "mls",
+                        "spec_id": null,
+                        "plan_id": null,
+                        "agents": [
+                            {
+                                "office_name": null
+                            }
+                        ]
+                    },
+                    "lead_attributes": {
+                        "show_contact_an_agent": true,
+                        "opcity_lead_attributes": {
+                            "cashback_enabled": false,
+                            "flip_the_market_enabled": false
+                        },
+                        "lead_type": "co_broke",
+                        "ready_connect_mortgage": {
+                            "show_contact_a_lender": false,
+                            "show_veterans_united": false
+                        }
+                    },
+                    "community": null,
+                    "permalink": "4023-Oakland-Rd_Bethlehem_PA_18020_M42933-57371",
+                    "price_reduced_amount": null,
+                    "description": {
+                        "name": null,
+                        "beds": null,
+                        "baths_consolidated": null,
+                        "sqft": null,
+                        "lot_sqft": 104108,
+                        "baths_max": null,
+                        "baths_min": null,
+                        "beds_min": null,
+                        "beds_max": null,
+                        "sqft_min": null,
+                        "sqft_max": null,
+                        "type": "land",
+                        "sub_type": null,
+                        "sold_price": 260000,
+                        "sold_date": "2008-10-31"
+                    },
+                    "location": {
+                        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=4023%20Oakland%20Rd%2C%20Bethlehem%2C%20PA%2018020&size=640x480&source=outdoor&signature=uB2DVfAYaNimeLXgV3H0uE4Tgow=",
+                        "address": {
+                            "line": "4023 Oakland Rd",
+                            "postal_code": "18020",
+                            "state": "Pennsylvania",
+                            "state_code": "PA",
+                            "city": "Bethlehem",
+                            "coordinate": {
+                                "lat": 40.668616,
+                                "lon": -75.319854
+                            }
+                        },
+                        "county": {
+                            "name": "Northampton",
+                            "fips_code": "42095"
+                        }
+                    },
+                    "open_houses": null,
+                    "branding": [
+                        {
+                            "type": "Office",
+                            "name": "Sell Your Home Services",
+                            "photo": null
+                        }
+                    ],
+                    "flags": {
+                        "is_coming_soon": null,
+                        "is_new_listing": false,
+                        "is_price_reduced": null,
+                        "is_foreclosure": null,
+                        "is_new_construction": null,
+                        "is_pending": null,
+                        "is_contingent": null
+                    },
+                    "list_date": "2024-08-16T16:53:28.000000Z",
+                    "photos": [
+                        {
+                            "href": "https://ap.rdcpix.com/c33642424ba37fdffda16b2dbaaf3b56l-m2553368517s.jpg"
+                        },
+                        {
+                            "href": "https://ap.rdcpix.com/c33642424ba37fdffda16b2dbaaf3b56l-m2062013852s.jpg"
+                        }
+                    ],
+                    "advertisers": [
+                        {
+                            "type": "seller",
+                            "builder": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "commute_polygon": null
+    }
+}
