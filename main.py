@@ -56,7 +56,7 @@ def scrape_property_ids_from_search(location, number_properties):
     data = {
         'query': query,
         'variables': {
-            'query': {'search_location': {'location': location}},
+            'query': {'search_location': {'location': location}, 'status': ['for_sale', 'ready_to_build']},
             'limit': number_properties,
             'sort_type': 'relevant',
             'search_promotion': {'names': [], 'slots': []},
@@ -74,7 +74,7 @@ def scrape_property_ids_from_search(location, number_properties):
 
 if __name__ == '__main__':
     # Get user input
-    location = input('What location do you want to search in (blank for Bethlehem): ') or 'Bethlehem, PA'
+    location = input('What location do you want to search in (leave blank for Bethlehem): ') or 'Bethlehem, PA'
     number_properties = input('How many properties do you want to scrape (from 10-200): ') or '10'
     if not number_properties.isdigit() or not 10 <= int(number_properties) <= 200:
         raise ValueError('Number of properties must be an integer between 10 and 200')
