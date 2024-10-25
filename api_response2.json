@@ -1,0 +1,2203 @@
+{
+    "mortgage": {
+        "property_tax_rate": 0.01040845,
+        "average_rates": [
+            {
+                "rate": 0.068,
+                "loan_type": {
+                    "loan_id": "thirty_year_fix",
+                    "is_va_loan": null,
+                    "display_name": "30-year fixed",
+                    "term": 30,
+                    "__typename": "LoanType"
+                },
+                "__typename": "Rate"
+            },
+            {
+                "rate": 0.06635,
+                "loan_type": {
+                    "loan_id": "twenty_year_fix",
+                    "is_va_loan": null,
+                    "display_name": "20-year fixed",
+                    "term": 20,
+                    "__typename": "LoanType"
+                },
+                "__typename": "Rate"
+            },
+            {
+                "rate": 0.05843,
+                "loan_type": {
+                    "loan_id": "fifteen_year_fix",
+                    "is_va_loan": null,
+                    "display_name": "15-year fixed",
+                    "term": 15,
+                    "__typename": "LoanType"
+                },
+                "__typename": "Rate"
+            },
+            {
+                "rate": 0.05778,
+                "loan_type": {
+                    "loan_id": "ten_year_fix",
+                    "is_va_loan": null,
+                    "display_name": "10-year fixed",
+                    "term": 10,
+                    "__typename": "LoanType"
+                },
+                "__typename": "Rate"
+            },
+            {
+                "rate": 0.06148,
+                "loan_type": {
+                    "loan_id": "thirty_year_fha",
+                    "is_va_loan": null,
+                    "display_name": "30-year fixed FHA",
+                    "term": 30,
+                    "__typename": "LoanType"
+                },
+                "__typename": "Rate"
+            },
+            {
+                "rate": 0.06139,
+                "loan_type": {
+                    "loan_id": "thirty_year_va",
+                    "is_va_loan": true,
+                    "display_name": "30-year fixed VA",
+                    "term": 30,
+                    "__typename": "LoanType"
+                },
+                "__typename": "Rate"
+            },
+            {
+                "rate": 0.06735,
+                "loan_type": {
+                    "loan_id": "five_one_arm",
+                    "is_va_loan": null,
+                    "display_name": "5-year ARM",
+                    "term": 30,
+                    "__typename": "LoanType"
+                },
+                "__typename": "Rate"
+            },
+            {
+                "rate": 0.07041,
+                "loan_type": {
+                    "loan_id": "seven_one_arm",
+                    "is_va_loan": null,
+                    "display_name": "7-year ARM",
+                    "term": 30,
+                    "__typename": "LoanType"
+                },
+                "__typename": "Rate"
+            }
+        ],
+        "closing_cost": 14200,
+        "closing_cost_rate": "4%",
+        "due_at_close": 85200,
+        "insurance_rate": 0.004375,
+        "county_fha_loan_limit": 557750,
+        "is_listing_price_eligible_for_fha": true,
+        "estimate": {
+            "monthly_payment": 2288,
+            "monthly_payment_details": [
+                {
+                    "amount": 1851,
+                    "display_name": "Principal & Interest",
+                    "type": "principal_and_interest",
+                    "__typename": "MonthlyOwnershipExpense"
+                },
+                {
+                    "amount": 129,
+                    "display_name": "Home Insurance",
+                    "type": "home_insurance",
+                    "__typename": "MonthlyOwnershipExpense"
+                },
+                {
+                    "amount": 0,
+                    "display_name": "HOA Fees",
+                    "type": "hoa_fees",
+                    "__typename": "MonthlyOwnershipExpense"
+                },
+                {
+                    "amount": 0,
+                    "display_name": "Mortgage Insurance",
+                    "type": "mortgage_insurance",
+                    "__typename": "MonthlyOwnershipExpense"
+                },
+                {
+                    "amount": 308,
+                    "display_name": "Property Tax",
+                    "type": "property_tax",
+                    "__typename": "MonthlyOwnershipExpense"
+                }
+            ],
+            "average_rate": {
+                "rate": 0.068,
+                "loan_type": {
+                    "term": 30,
+                    "__typename": "LoanType"
+                },
+                "__typename": "Rate"
+            },
+            "__typename": "MortgageEstimate"
+        },
+        "__typename": "Mortgage"
+    },
+    "advertisers": [
+        {
+            "corporation": null,
+            "team": {
+                "name": "",
+                "__typename": "AdvertiserTeam"
+            },
+            "state_license": "",
+            "address": {
+                "city": "",
+                "country": "",
+                "line": "",
+                "postal_code": "",
+                "state": "",
+                "state_code": null,
+                "__typename": "AdvertiserAddress"
+            },
+            "builder": null,
+            "broker": {
+                "accent_color": "",
+                "designations": [],
+                "fulfillment_id": "3983379",
+                "name": "Homestarr Realty -  Broker",
+                "logo": "",
+                "__typename": "HomeAdvertiserBroker"
+            },
+            "email": "thomasjmcadams@remax.net",
+            "fulfillment_id": "3463498",
+            "href": null,
+            "mls_set": "A-PHPA-3268418",
+            "name": "Thomas Mcadams",
+            "nrds_id": null,
+            "office": {
+                "address": {
+                    "city": "Warrington",
+                    "coordinate": {
+                        "lat": null,
+                        "lon": null,
+                        "__typename": "SimpleCoordinate"
+                    },
+                    "country": "US",
+                    "line": "850 Easton Road",
+                    "postal_code": "18976",
+                    "state": null,
+                    "state_code": "PA",
+                    "__typename": "AdvertiserAddress"
+                },
+                "application_url": null,
+                "email": "jhill@fivestreet.me",
+                "lead_email": null,
+                "fulfillment_id": "929699",
+                "hours": null,
+                "href": "http://www.homestarrinc.com",
+                "mls_set": "O-PHPA-HOMSTAR",
+                "out_of_community": null,
+                "name": "Homestarr Realty",
+                "phones": [
+                    {
+                        "ext": "",
+                        "number": "2153555565",
+                        "primary": true,
+                        "trackable": null,
+                        "type": "Office",
+                        "__typename": "AdvertiserPhone"
+                    }
+                ],
+                "photo": {
+                    "href": "",
+                    "__typename": "Href"
+                },
+                "slogan": "",
+                "__typename": "HomeAdvertiserOffice"
+            },
+            "phones": [
+                {
+                    "ext": "",
+                    "number": "2156982000",
+                    "primary": true,
+                    "trackable": null,
+                    "type": "office",
+                    "__typename": "AdvertiserPhone"
+                }
+            ],
+            "photo": null,
+            "slogan": null,
+            "type": "seller",
+            "__typename": "HomeAdvertiser"
+        }
+    ],
+    "builder": null,
+    "products": {
+        "products": [
+            "core.agent",
+            "core.broker",
+            "co_broke"
+        ],
+        "brand_name": "essentials",
+        "__typename": "ProductSummary"
+    },
+    "promotions": null,
+    "consumer_advertisers": [
+        {
+            "advertiser_id": "929699",
+            "agent_id": "3463498",
+            "broker_id": "3983379",
+            "office_id": "929699",
+            "name": "Thomas Mcadams",
+            "type": "Agent",
+            "slogan": null,
+            "phone": null,
+            "href": "/realestateagents/Thomas-Mcadams_Philadelphia_PA_3463498",
+            "show_realtor_logo": false,
+            "hours": null,
+            "contact_name": null,
+            "address": null,
+            "photo": {
+                "description": null,
+                "href": null,
+                "type": null,
+                "__typename": "Photo"
+            },
+            "__typename": "ConsumerAdvertiser"
+        },
+        {
+            "advertiser_id": "929699",
+            "agent_id": "3463498",
+            "broker_id": "3983379",
+            "office_id": "929699",
+            "name": "Homestarr Realty",
+            "type": "Office",
+            "slogan": null,
+            "phone": "(215) 355-5565",
+            "href": "http://www.homestarrinc.com",
+            "show_realtor_logo": false,
+            "hours": null,
+            "contact_name": null,
+            "address": {
+                "city": "Warrington",
+                "state_code": "PA",
+                "__typename": "AdvertiserAddress"
+            },
+            "photo": {
+                "description": null,
+                "href": null,
+                "type": null,
+                "__typename": "Photo"
+            },
+            "__typename": "ConsumerAdvertiser"
+        }
+    ],
+    "buyers": null,
+    "community": null,
+    "days_on_market": null,
+    "move_in_date": null,
+    "description": {
+        "baths": 2,
+        "baths_3qtr": null,
+        "baths_full": 1,
+        "baths_half": 1,
+        "baths_max": null,
+        "baths_min": null,
+        "baths_total": null,
+        "baths_consolidated": "1.5",
+        "beds": 3,
+        "beds_max": null,
+        "beds_min": null,
+        "construction": null,
+        "cooling": null,
+        "exterior": null,
+        "fireplace": null,
+        "garage": null,
+        "garage_max": null,
+        "garage_min": null,
+        "garage_type": null,
+        "heating": null,
+        "logo": null,
+        "lot_sqft": 2964,
+        "name": null,
+        "pool": null,
+        "roofing": null,
+        "rooms": null,
+        "sqft": 1288,
+        "sqft_max": null,
+        "sqft_min": null,
+        "stories": 2,
+        "styles": null,
+        "sub_type": "townhouse",
+        "text": "SUPER CLEAN Extremely Well Maintained Somerton Twin! Home offers open first floor living space with open kitchen, island, new carpet, and half bath. Walkout the kitchen to backyard to large deck and driveway parking. Backyard features a nice 8x12 shed on raise concrete pad for extra storage. Upstairs features large main bedroom with tons of closet space, second and third bedrooms and hall bath. Very nicely finished basement living space with laundry/utilty room and 1/4 bath. Walkout basement to driveway and garage with rear driveway access. Recent upgrades include New Hi-Effiency HVAC System 2022, New Bradfiord White Hot Water Heater, and New Storm Doors throughout. Quiet neighborhood close to all major transportation, less than 5 minutes to I95, Turnpike, and US1.",
+        "type": "townhomes",
+        "units": null,
+        "year_built": 1960,
+        "year_renovated": null,
+        "zoning": null,
+        "__typename": "HomeDescription"
+    },
+    "details": [
+        {
+            "category": "Bedrooms",
+            "parent_category": "Interior",
+            "text": [
+                "Bedrooms: 3"
+            ],
+            "__typename": "HomeDetails"
+        },
+        {
+            "category": "Bathrooms",
+            "parent_category": "Interior",
+            "text": [
+                "Total Bathrooms: 2",
+                "Full Bathrooms: 1",
+                "1/2 Bathrooms: 1"
+            ],
+            "__typename": "HomeDetails"
+        },
+        {
+            "category": "Interior Features",
+            "parent_category": "Interior",
+            "text": [
+                "Basement"
+            ],
+            "__typename": "HomeDetails"
+        },
+        {
+            "category": "Heating and Cooling",
+            "parent_category": "Interior",
+            "text": [
+                "Cooling Features: Central A/C",
+                "Heating Features: Forced Air",
+                "Heating: Yes"
+            ],
+            "__typename": "HomeDetails"
+        },
+        {
+            "category": "Land Info",
+            "parent_category": "Exterior",
+            "text": [
+                "Lot Size Acres: 0.0680441",
+                "Lot Size Square Feet: 2964"
+            ],
+            "__typename": "HomeDetails"
+        },
+        {
+            "category": "Garage and Parking",
+            "parent_category": "Exterior",
+            "text": [
+                "Parking Features: Driveway"
+            ],
+            "__typename": "HomeDetails"
+        },
+        {
+            "category": "Homeowners Association",
+            "parent_category": "Community",
+            "text": [
+                "Association: No",
+                "Calculated Total Monthly Association Fees: 0"
+            ],
+            "__typename": "HomeDetails"
+        },
+        {
+            "category": "School Information",
+            "parent_category": "Community",
+            "text": [
+                "School District: THE SCHOOL DISTRICT OF PHILADELPHIA"
+            ],
+            "__typename": "HomeDetails"
+        },
+        {
+            "category": "Other Property Info",
+            "parent_category": "Listing",
+            "text": [
+                "Municipality: PHILADELPHIA",
+                "Annual Tax Amount: 3695.0",
+                "Source Listing Status: Active Under Contract",
+                "County: PHILADELPHIA",
+                "Disclaimer: Standard",
+                "Ownership: Fee Simple",
+                "Source Property Type: Residential",
+                "Area: PHILADELPHIA",
+                "Property Subtype: townhouse",
+                "Source Neighborhood: SOMERTON",
+                "Postal Code Plus 4: 1509",
+                "Subdivision: SOMERTON",
+                "Source System Name: C2C"
+            ],
+            "__typename": "HomeDetails"
+        },
+        {
+            "category": "Building and Construction",
+            "parent_category": "Features",
+            "text": [
+                "Total Square Feet Living: 1288",
+                "Year Built: 1960",
+                "Above Grade Finished Area: 1288",
+                "Construction Materials: Masonry",
+                "Property Age: 64",
+                "Levels or Stories: 2",
+                "Structure Type: Twin/Semi-Detached",
+                "House Style: Straight Thru",
+                "Total Area Sqft: 1288"
+            ],
+            "__typename": "HomeDetails"
+        }
+    ],
+    "other_listings": {
+        "rdc": [
+            {
+                "listing_id": "2972067442",
+                "status": "for_sale",
+                "listing_key": null,
+                "sold_date": null,
+                "primary": true,
+                "unique": true,
+                "__typename": "HomeOtherListing"
+            }
+        ],
+        "__typename": "HomeOtherListings"
+    },
+    "lead_attributes": {
+        "show_contact_an_agent": true,
+        "lead_type": "co_broke",
+        "show_lead_form": true,
+        "disclaimer_text": null,
+        "is_tcpa_message_enabled": null,
+        "show_text_leads": true,
+        "opcity_lead_attributes": {
+            "flip_the_market_enabled": false,
+            "phones": null,
+            "__typename": "OpCityLeadAttributes"
+        },
+        "ready_connect_mortgage": {
+            "show_contact_a_lender": true,
+            "show_veterans_united": true,
+            "__typename": "ReadyConnectMortgage"
+        },
+        "__typename": "LeadAttributes"
+    },
+    "flags": {
+        "is_coming_soon": null,
+        "is_contingent": true,
+        "is_foreclosure": null,
+        "is_new_construction": null,
+        "is_pending": null,
+        "is_subdivision": null,
+        "is_price_reduced": null,
+        "is_new_listing": false,
+        "__typename": "HomeFlags"
+    },
+    "href": "https://www.realto2r.com/realestateandhomes-detail/15151-Endicott-St_Philadelphia_PA_19116_M45673-08606",
+    "last_sold_date": "1994-06-03",
+    "last_sold_price": 88500,
+    "list_date": "2024-09-13T11:56:04Z",
+    "list_price": 355000,
+    "last_price_change_amount": 101,
+    "listing_id": "2972067442",
+    "location": {
+        "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=15151%20Endicott%20St%2C%20Philadelphia%2C%20PA%2019116&size=932x420&source=outdoor&signature=CmbktnDb6DR7ATqRtK-gSdvAnRE=",
+        "street_view_metadata_url": "https://maps.googleapis.com/maps/api/streetview/metadata?channel=rdc-streetview&client=gme-movesalesinc&location=15151%20Endicott%20St%2C%20Philadelphia%2C%20PA%2019116&size=640x480&source=outdoor&signature=GgOrqVGdcTWPXeC1BYcuLMRHqAM=",
+        "address": {
+            "city": "Philadelphia",
+            "coordinate": {
+                "lat": 40.123823,
+                "lon": -74.989753,
+                "__typename": "HomeCoordinate"
+            },
+            "country": "USA",
+            "line": "15151 Endicott St",
+            "postal_code": "19116",
+            "state": "Pennsylvania",
+            "state_code": "PA",
+            "street_direction": null,
+            "street_name": "Endicott",
+            "street_number": "15151",
+            "street_post_direction": null,
+            "street_suffix": "St",
+            "unit": null,
+            "validation_code": "121",
+            "__typename": "HomeAddress"
+        },
+        "county": {
+            "fips_code": "42101",
+            "name": "Philadelphia",
+            "state_code": "PA",
+            "__typename": "HomeCounty"
+        },
+        "neighborhoods": [
+            {
+                "city": "Philadelphia",
+                "id": "024ba024-c48b-564b-ac45-b86a058758f8",
+                "level": "neighborhood",
+                "name": "Somerton",
+                "geo_type": "neighborhood",
+                "state_code": "PA",
+                "slug_id": "Somerton_Philadelphia_PA",
+                "geo_statistics": {
+                    "housing_market": {
+                        "median_listing_price": 409900,
+                        "__typename": "HousingMarket"
+                    },
+                    "__typename": "GeoStatistics"
+                },
+                "boundary": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -75.02237,
+                                40.13111
+                            ],
+                            [
+                                -75.02246,
+                                40.13125
+                            ],
+                            [
+                                -75.02111,
+                                40.13193
+                            ],
+                            [
+                                -75.02004,
+                                40.13283
+                            ],
+                            [
+                                -75.01498,
+                                40.138
+                            ],
+                            [
+                                -75.00854,
+                                40.134
+                            ],
+                            [
+                                -74.99793,
+                                40.12785
+                            ],
+                            [
+                                -74.99464,
+                                40.13118
+                            ],
+                            [
+                                -74.99364,
+                                40.13191
+                            ],
+                            [
+                                -74.99346,
+                                40.13189
+                            ],
+                            [
+                                -74.99282,
+                                40.13082
+                            ],
+                            [
+                                -74.9928,
+                                40.13036
+                            ],
+                            [
+                                -74.99291,
+                                40.13015
+                            ],
+                            [
+                                -74.99354,
+                                40.12999
+                            ],
+                            [
+                                -74.99369,
+                                40.12971
+                            ],
+                            [
+                                -74.99365,
+                                40.12844
+                            ],
+                            [
+                                -74.99418,
+                                40.12714
+                            ],
+                            [
+                                -74.99413,
+                                40.12662
+                            ],
+                            [
+                                -74.99294,
+                                40.12599
+                            ],
+                            [
+                                -74.99098,
+                                40.12625
+                            ],
+                            [
+                                -74.9893,
+                                40.12624
+                            ],
+                            [
+                                -74.9884,
+                                40.12412
+                            ],
+                            [
+                                -74.98777,
+                                40.12389
+                            ],
+                            [
+                                -74.98746,
+                                40.12356
+                            ],
+                            [
+                                -74.9902,
+                                40.12156
+                            ],
+                            [
+                                -74.99352,
+                                40.11865
+                            ],
+                            [
+                                -74.99708,
+                                40.12113
+                            ],
+                            [
+                                -75.00321,
+                                40.11645
+                            ],
+                            [
+                                -75.00195,
+                                40.11535
+                            ],
+                            [
+                                -75.00027,
+                                40.11295
+                            ],
+                            [
+                                -74.99978,
+                                40.11125
+                            ],
+                            [
+                                -74.99855,
+                                40.11202
+                            ],
+                            [
+                                -74.9983,
+                                40.11202
+                            ],
+                            [
+                                -74.99676,
+                                40.11055
+                            ],
+                            [
+                                -74.99488,
+                                40.10933
+                            ],
+                            [
+                                -75.01206,
+                                40.09747
+                            ],
+                            [
+                                -75.01365,
+                                40.09626
+                            ],
+                            [
+                                -75.01525,
+                                40.09467
+                            ],
+                            [
+                                -75.02197,
+                                40.10019
+                            ],
+                            [
+                                -75.02766,
+                                40.10176
+                            ],
+                            [
+                                -75.03537,
+                                40.10659
+                            ],
+                            [
+                                -75.03624,
+                                40.10681
+                            ],
+                            [
+                                -75.03808,
+                                40.10694
+                            ],
+                            [
+                                -75.03942,
+                                40.10737
+                            ],
+                            [
+                                -75.0486,
+                                40.11274
+                            ],
+                            [
+                                -75.04536,
+                                40.11484
+                            ],
+                            [
+                                -75.04396,
+                                40.11601
+                            ],
+                            [
+                                -75.0324,
+                                40.12402
+                            ],
+                            [
+                                -75.03246,
+                                40.12436
+                            ],
+                            [
+                                -75.0292,
+                                40.12526
+                            ],
+                            [
+                                -75.02951,
+                                40.12591
+                            ],
+                            [
+                                -75.02869,
+                                40.12638
+                            ],
+                            [
+                                -75.02815,
+                                40.127
+                            ],
+                            [
+                                -75.02578,
+                                40.12864
+                            ],
+                            [
+                                -75.02581,
+                                40.12884
+                            ],
+                            [
+                                -75.02454,
+                                40.12942
+                            ],
+                            [
+                                -75.02456,
+                                40.12954
+                            ],
+                            [
+                                -75.02295,
+                                40.13066
+                            ],
+                            [
+                                -75.02299,
+                                40.13086
+                            ],
+                            [
+                                -75.02237,
+                                40.13111
+                            ]
+                        ]
+                    ]
+                },
+                "__typename": "Neighborhood"
+            },
+            {
+                "city": "Philadelphia",
+                "id": "e6398049-08a6-57d4-acbf-3a7c24566eaf",
+                "level": "macro_neighborhood",
+                "name": "Far Northeast Philadelphia",
+                "geo_type": "neighborhood",
+                "state_code": "PA",
+                "slug_id": "Far-Northeast-Philadelphia_Philadelphia_PA",
+                "geo_statistics": {
+                    "housing_market": {
+                        "median_listing_price": 355000,
+                        "__typename": "HousingMarket"
+                    },
+                    "__typename": "GeoStatistics"
+                },
+                "boundary": {
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [
+                                -75.02237,
+                                40.13111
+                            ],
+                            [
+                                -75.02246,
+                                40.13125
+                            ],
+                            [
+                                -75.02111,
+                                40.13193
+                            ],
+                            [
+                                -75.02004,
+                                40.13283
+                            ],
+                            [
+                                -75.01498,
+                                40.138
+                            ],
+                            [
+                                -75.00854,
+                                40.134
+                            ],
+                            [
+                                -74.99793,
+                                40.12785
+                            ],
+                            [
+                                -74.99464,
+                                40.13118
+                            ],
+                            [
+                                -74.99364,
+                                40.13191
+                            ],
+                            [
+                                -74.99346,
+                                40.13189
+                            ],
+                            [
+                                -74.99282,
+                                40.13082
+                            ],
+                            [
+                                -74.9928,
+                                40.13036
+                            ],
+                            [
+                                -74.99291,
+                                40.13015
+                            ],
+                            [
+                                -74.99354,
+                                40.12999
+                            ],
+                            [
+                                -74.99369,
+                                40.12971
+                            ],
+                            [
+                                -74.99365,
+                                40.12844
+                            ],
+                            [
+                                -74.99418,
+                                40.12714
+                            ],
+                            [
+                                -74.99413,
+                                40.12662
+                            ],
+                            [
+                                -74.99294,
+                                40.12599
+                            ],
+                            [
+                                -74.99098,
+                                40.12625
+                            ],
+                            [
+                                -74.9893,
+                                40.12624
+                            ],
+                            [
+                                -74.98837,
+                                40.12408
+                            ],
+                            [
+                                -74.98776,
+                                40.12388
+                            ],
+                            [
+                                -74.98717,
+                                40.12326
+                            ],
+                            [
+                                -74.98638,
+                                40.12313
+                            ],
+                            [
+                                -74.98496,
+                                40.12387
+                            ],
+                            [
+                                -74.98412,
+                                40.12358
+                            ],
+                            [
+                                -74.98288,
+                                40.12345
+                            ],
+                            [
+                                -74.98265,
+                                40.12317
+                            ],
+                            [
+                                -74.98229,
+                                40.12166
+                            ],
+                            [
+                                -74.98268,
+                                40.12097
+                            ],
+                            [
+                                -74.98254,
+                                40.12008
+                            ],
+                            [
+                                -74.98068,
+                                40.12013
+                            ],
+                            [
+                                -74.97966,
+                                40.1194
+                            ],
+                            [
+                                -74.97927,
+                                40.11934
+                            ],
+                            [
+                                -74.97776,
+                                40.11964
+                            ],
+                            [
+                                -74.97737,
+                                40.12007
+                            ],
+                            [
+                                -74.9765,
+                                40.12002
+                            ],
+                            [
+                                -74.97602,
+                                40.12024
+                            ],
+                            [
+                                -74.9731,
+                                40.11997
+                            ],
+                            [
+                                -74.97129,
+                                40.11854
+                            ],
+                            [
+                                -74.97035,
+                                40.11721
+                            ],
+                            [
+                                -74.96922,
+                                40.11688
+                            ],
+                            [
+                                -74.9685,
+                                40.11703
+                            ],
+                            [
+                                -74.96825,
+                                40.11754
+                            ],
+                            [
+                                -74.96768,
+                                40.11789
+                            ],
+                            [
+                                -74.96592,
+                                40.11827
+                            ],
+                            [
+                                -74.96526,
+                                40.11866
+                            ],
+                            [
+                                -74.96474,
+                                40.11859
+                            ],
+                            [
+                                -74.96358,
+                                40.11709
+                            ],
+                            [
+                                -74.96313,
+                                40.11475
+                            ],
+                            [
+                                -74.96364,
+                                40.11401
+                            ],
+                            [
+                                -74.9639,
+                                40.11309
+                            ],
+                            [
+                                -74.9635,
+                                40.11036
+                            ],
+                            [
+                                -74.96379,
+                                40.10997
+                            ],
+                            [
+                                -74.96466,
+                                40.10961
+                            ],
+                            [
+                                -74.96465,
+                                40.10927
+                            ],
+                            [
+                                -74.96539,
+                                40.10798
+                            ],
+                            [
+                                -74.96457,
+                                40.10723
+                            ],
+                            [
+                                -74.96366,
+                                40.10703
+                            ],
+                            [
+                                -74.96362,
+                                40.10598
+                            ],
+                            [
+                                -74.96248,
+                                40.10443
+                            ],
+                            [
+                                -74.96108,
+                                40.10323
+                            ],
+                            [
+                                -74.96125,
+                                40.10198
+                            ],
+                            [
+                                -74.96112,
+                                40.1014
+                            ],
+                            [
+                                -74.96172,
+                                40.10071
+                            ],
+                            [
+                                -74.96207,
+                                40.09962
+                            ],
+                            [
+                                -74.96171,
+                                40.09915
+                            ],
+                            [
+                                -74.96213,
+                                40.09865
+                            ],
+                            [
+                                -74.96159,
+                                40.09825
+                            ],
+                            [
+                                -74.96178,
+                                40.09785
+                            ],
+                            [
+                                -74.96167,
+                                40.0977
+                            ],
+                            [
+                                -74.95987,
+                                40.0974
+                            ],
+                            [
+                                -74.95839,
+                                40.0967
+                            ],
+                            [
+                                -74.95781,
+                                40.09618
+                            ],
+                            [
+                                -74.95637,
+                                40.09592
+                            ],
+                            [
+                                -74.95604,
+                                40.09571
+                            ],
+                            [
+                                -74.95568,
+                                40.0951
+                            ],
+                            [
+                                -74.95615,
+                                40.09433
+                            ],
+                            [
+                                -74.95641,
+                                40.09317
+                            ],
+                            [
+                                -74.95793,
+                                40.09056
+                            ],
+                            [
+                                -74.95778,
+                                40.08985
+                            ],
+                            [
+                                -74.9582,
+                                40.08931
+                            ],
+                            [
+                                -74.95794,
+                                40.08829
+                            ],
+                            [
+                                -74.95796,
+                                40.08676
+                            ],
+                            [
+                                -74.95825,
+                                40.08509
+                            ],
+                            [
+                                -74.95853,
+                                40.08459
+                            ],
+                            [
+                                -74.95842,
+                                40.08416
+                            ],
+                            [
+                                -74.95895,
+                                40.08332
+                            ],
+                            [
+                                -74.95893,
+                                40.08243
+                            ],
+                            [
+                                -74.95919,
+                                40.08224
+                            ],
+                            [
+                                -74.95982,
+                                40.08217
+                            ],
+                            [
+                                -74.96003,
+                                40.08117
+                            ],
+                            [
+                                -74.96097,
+                                40.08037
+                            ],
+                            [
+                                -74.96152,
+                                40.07965
+                            ],
+                            [
+                                -74.96195,
+                                40.07949
+                            ],
+                            [
+                                -74.96246,
+                                40.07804
+                            ],
+                            [
+                                -74.9633,
+                                40.07713
+                            ],
+                            [
+                                -74.96397,
+                                40.07694
+                            ],
+                            [
+                                -74.96534,
+                                40.07724
+                            ],
+                            [
+                                -74.96622,
+                                40.07725
+                            ],
+                            [
+                                -74.9671,
+                                40.07645
+                            ],
+                            [
+                                -74.96846,
+                                40.07635
+                            ],
+                            [
+                                -74.96926,
+                                40.07649
+                            ],
+                            [
+                                -74.97018,
+                                40.07631
+                            ],
+                            [
+                                -74.97114,
+                                40.07636
+                            ],
+                            [
+                                -74.97135,
+                                40.07564
+                            ],
+                            [
+                                -74.97121,
+                                40.07508
+                            ],
+                            [
+                                -74.97145,
+                                40.07451
+                            ],
+                            [
+                                -74.97112,
+                                40.07412
+                            ],
+                            [
+                                -74.97116,
+                                40.07366
+                            ],
+                            [
+                                -74.97228,
+                                40.07317
+                            ],
+                            [
+                                -74.97238,
+                                40.07227
+                            ],
+                            [
+                                -74.97343,
+                                40.07171
+                            ],
+                            [
+                                -74.97375,
+                                40.07117
+                            ],
+                            [
+                                -74.97481,
+                                40.07076
+                            ],
+                            [
+                                -74.9752,
+                                40.06989
+                            ],
+                            [
+                                -74.9767,
+                                40.06919
+                            ],
+                            [
+                                -74.97731,
+                                40.06815
+                            ],
+                            [
+                                -74.9785,
+                                40.06748
+                            ],
+                            [
+                                -74.97914,
+                                40.06732
+                            ],
+                            [
+                                -74.97985,
+                                40.06661
+                            ],
+                            [
+                                -74.98066,
+                                40.06625
+                            ],
+                            [
+                                -74.98112,
+                                40.06541
+                            ],
+                            [
+                                -74.98107,
+                                40.0649
+                            ],
+                            [
+                                -74.98279,
+                                40.06453
+                            ],
+                            [
+                                -74.98424,
+                                40.064
+                            ],
+                            [
+                                -74.99127,
+                                40.05991
+                            ],
+                            [
+                                -75.00113,
+                                40.05722
+                            ],
+                            [
+                                -75.00489,
+                                40.05464
+                            ],
+                            [
+                                -75.01836,
+                                40.04416
+                            ],
+                            [
+                                -75.01946,
+                                40.04502
+                            ],
+                            [
+                                -75.01797,
+                                40.04635
+                            ],
+                            [
+                                -75.01878,
+                                40.04705
+                            ],
+                            [
+                                -75.01767,
+                                40.04792
+                            ],
+                            [
+                                -75.01703,
+                                40.04891
+                            ],
+                            [
+                                -75.01685,
+                                40.04995
+                            ],
+                            [
+                                -75.0171,
+                                40.051
+                            ],
+                            [
+                                -75.01769,
+                                40.05195
+                            ],
+                            [
+                                -75.01848,
+                                40.05265
+                            ],
+                            [
+                                -75.02351,
+                                40.05544
+                            ],
+                            [
+                                -75.02404,
+                                40.05485
+                            ],
+                            [
+                                -75.02399,
+                                40.05426
+                            ],
+                            [
+                                -75.02466,
+                                40.05332
+                            ],
+                            [
+                                -75.0228,
+                                40.05235
+                            ],
+                            [
+                                -75.02407,
+                                40.05106
+                            ],
+                            [
+                                -75.02493,
+                                40.05065
+                            ],
+                            [
+                                -75.0258,
+                                40.05048
+                            ],
+                            [
+                                -75.02672,
+                                40.05055
+                            ],
+                            [
+                                -75.02684,
+                                40.05081
+                            ],
+                            [
+                                -75.02929,
+                                40.05129
+                            ],
+                            [
+                                -75.03126,
+                                40.05139
+                            ],
+                            [
+                                -75.03177,
+                                40.05165
+                            ],
+                            [
+                                -75.03224,
+                                40.0525
+                            ],
+                            [
+                                -75.03251,
+                                40.05263
+                            ],
+                            [
+                                -75.03358,
+                                40.05223
+                            ],
+                            [
+                                -75.03492,
+                                40.05128
+                            ],
+                            [
+                                -75.03552,
+                                40.05128
+                            ],
+                            [
+                                -75.03601,
+                                40.0516
+                            ],
+                            [
+                                -75.03611,
+                                40.05196
+                            ],
+                            [
+                                -75.03588,
+                                40.05266
+                            ],
+                            [
+                                -75.0363,
+                                40.05338
+                            ],
+                            [
+                                -75.03638,
+                                40.05414
+                            ],
+                            [
+                                -75.03391,
+                                40.05783
+                            ],
+                            [
+                                -75.03442,
+                                40.05823
+                            ],
+                            [
+                                -75.03459,
+                                40.05873
+                            ],
+                            [
+                                -75.03343,
+                                40.0615
+                            ],
+                            [
+                                -75.03365,
+                                40.0616
+                            ],
+                            [
+                                -75.03401,
+                                40.06482
+                            ],
+                            [
+                                -75.03475,
+                                40.06508
+                            ],
+                            [
+                                -75.03462,
+                                40.06539
+                            ],
+                            [
+                                -75.04091,
+                                40.06904
+                            ],
+                            [
+                                -75.04147,
+                                40.06953
+                            ],
+                            [
+                                -75.04174,
+                                40.07032
+                            ],
+                            [
+                                -75.04157,
+                                40.0709
+                            ],
+                            [
+                                -75.03982,
+                                40.07246
+                            ],
+                            [
+                                -75.0431,
+                                40.07704
+                            ],
+                            [
+                                -75.04389,
+                                40.07753
+                            ],
+                            [
+                                -75.04503,
+                                40.07965
+                            ],
+                            [
+                                -75.04732,
+                                40.08284
+                            ],
+                            [
+                                -75.05085,
+                                40.0802
+                            ],
+                            [
+                                -75.05154,
+                                40.08058
+                            ],
+                            [
+                                -75.05262,
+                                40.07955
+                            ],
+                            [
+                                -75.05499,
+                                40.08095
+                            ],
+                            [
+                                -75.05658,
+                                40.08461
+                            ],
+                            [
+                                -75.05691,
+                                40.08579
+                            ],
+                            [
+                                -75.05703,
+                                40.0868
+                            ],
+                            [
+                                -75.05656,
+                                40.08751
+                            ],
+                            [
+                                -75.05628,
+                                40.08869
+                            ],
+                            [
+                                -75.05696,
+                                40.08949
+                            ],
+                            [
+                                -75.05742,
+                                40.08983
+                            ],
+                            [
+                                -75.05817,
+                                40.09008
+                            ],
+                            [
+                                -75.06405,
+                                40.09061
+                            ],
+                            [
+                                -75.06466,
+                                40.09094
+                            ],
+                            [
+                                -75.06558,
+                                40.09182
+                            ],
+                            [
+                                -75.06619,
+                                40.09244
+                            ],
+                            [
+                                -75.06606,
+                                40.09262
+                            ],
+                            [
+                                -75.06849,
+                                40.09454
+                            ],
+                            [
+                                -75.0696,
+                                40.09439
+                            ],
+                            [
+                                -75.06954,
+                                40.09457
+                            ],
+                            [
+                                -75.06848,
+                                40.09496
+                            ],
+                            [
+                                -75.06843,
+                                40.0956
+                            ],
+                            [
+                                -75.06792,
+                                40.09618
+                            ],
+                            [
+                                -75.06769,
+                                40.09616
+                            ],
+                            [
+                                -75.06756,
+                                40.09699
+                            ],
+                            [
+                                -75.0673,
+                                40.097
+                            ],
+                            [
+                                -75.06721,
+                                40.09722
+                            ],
+                            [
+                                -75.06674,
+                                40.09718
+                            ],
+                            [
+                                -75.06671,
+                                40.09752
+                            ],
+                            [
+                                -75.06629,
+                                40.09767
+                            ],
+                            [
+                                -75.06619,
+                                40.09797
+                            ],
+                            [
+                                -75.06551,
+                                40.09797
+                            ],
+                            [
+                                -75.0653,
+                                40.09863
+                            ],
+                            [
+                                -75.06476,
+                                40.09937
+                            ],
+                            [
+                                -75.05834,
+                                40.10595
+                            ],
+                            [
+                                -75.05695,
+                                40.10676
+                            ],
+                            [
+                                -75.05509,
+                                40.10729
+                            ],
+                            [
+                                -75.05537,
+                                40.10798
+                            ],
+                            [
+                                -75.05418,
+                                40.10835
+                            ],
+                            [
+                                -75.05448,
+                                40.10911
+                            ],
+                            [
+                                -75.05365,
+                                40.10933
+                            ],
+                            [
+                                -75.05299,
+                                40.10986
+                            ],
+                            [
+                                -75.05249,
+                                40.10999
+                            ],
+                            [
+                                -75.04874,
+                                40.11267
+                            ],
+                            [
+                                -75.04536,
+                                40.11484
+                            ],
+                            [
+                                -75.04396,
+                                40.11601
+                            ],
+                            [
+                                -75.0324,
+                                40.12402
+                            ],
+                            [
+                                -75.03246,
+                                40.12436
+                            ],
+                            [
+                                -75.0292,
+                                40.12526
+                            ],
+                            [
+                                -75.02951,
+                                40.12591
+                            ],
+                            [
+                                -75.02869,
+                                40.12638
+                            ],
+                            [
+                                -75.02815,
+                                40.127
+                            ],
+                            [
+                                -75.02578,
+                                40.12864
+                            ],
+                            [
+                                -75.02581,
+                                40.12884
+                            ],
+                            [
+                                -75.02454,
+                                40.12942
+                            ],
+                            [
+                                -75.02456,
+                                40.12954
+                            ],
+                            [
+                                -75.02295,
+                                40.13066
+                            ],
+                            [
+                                -75.02299,
+                                40.13086
+                            ],
+                            [
+                                -75.02237,
+                                40.13111
+                            ]
+                        ]
+                    ]
+                },
+                "__typename": "Neighborhood"
+            }
+        ],
+        "search_areas": [
+            {
+                "city": "philadelphia",
+                "state_code": "pa",
+                "__typename": "SearchArea"
+            }
+        ],
+        "city": {
+            "county_needed_for_uniq": false,
+            "slug_id": "Philadelphia_PA",
+            "__typename": "City"
+        },
+        "postal_code": {
+            "geo_statistics": {
+                "housing_market": {
+                    "hot_market_badge": "Hot",
+                    "__typename": "HousingMarket"
+                },
+                "__typename": "GeoStatistics"
+            },
+            "__typename": "PostalCode"
+        },
+        "__typename": "HomeLocation"
+    },
+    "open_houses": null,
+    "permalink": "15151-Endicott-St_Philadelphia_PA_19116_M45673-08606",
+    "photo_count": 22,
+    "photos": [
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m1637414749s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "house_view",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "patio",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "porch",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "yard",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "incomplete",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m677299812s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "living_room",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2848329553s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "living_room",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2166115467s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "dining_room",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m865411041s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "kitchen",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2195244568s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "kitchen",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m530478344s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "kitchen",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2765041253s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "dining_room",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m4190169160s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "living_room",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m3126630729s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "living_room",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2403147436s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "bathroom",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2861609538s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "bedroom",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m3444298639s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "bedroom",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m1360916062s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "bedroom",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2223454764s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "closet",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2900296782s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "bedroom",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m3212607704s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "bedroom",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m1534033349s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "balcony",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "patio",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m3791240204s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "porch",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m591438333s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "shed",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "yard",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m3113385981s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "garage",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "house_view",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "patio",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "yard",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "back_side",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "incomplete",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        },
+        {
+            "title": null,
+            "description": null,
+            "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m882151162s.jpg",
+            "type": "realtordotcom_mls_listing_image",
+            "tags": [
+                {
+                    "label": "garage",
+                    "__typename": "Tag"
+                },
+                {
+                    "label": "yard",
+                    "__typename": "Tag"
+                }
+            ],
+            "__typename": "HomePhoto"
+        }
+    ],
+    "price_per_sqft": 276,
+    "primary_photo": {
+        "href": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m1637414749s.jpg",
+        "__typename": "HomePhoto"
+    },
+    "hoa": {
+        "fee": 0,
+        "__typename": "HomeHOA"
+    },
+    "property_id": "4567308606",
+    "provider_url": null,
+    "source": {
+        "days_on_mls": null,
+        "agents": [
+            {
+                "agent_id": "3268418",
+                "agent_name": "Thomas Mcadams",
+                "agent_email": "tjmcadams@homestarrinc.com",
+                "agent_phone": null,
+                "id": "PHPA",
+                "office_id": "HOMSTAR",
+                "office_name": null,
+                "office_phone": null,
+                "type": "seller",
+                "__typename": "MlsAgent"
+            }
+        ],
+        "disclaimer": {
+            "href": null,
+            "logo": null,
+            "text": "\u00a92024 Bright MLS, Inc. All Rights Reserved.",
+            "__typename": "MlsDisclaimer"
+        },
+        "copyrightnotice": null,
+        "id": "PHPA",
+        "plan_id": null,
+        "listing_id": "PAPH2393766",
+        "name": "BrightMLS",
+        "raw": {
+            "status": "Active Under Contract",
+            "style": "Straight Thru",
+            "tax_amount": 3695,
+            "__typename": "MlsRawData"
+        },
+        "type": "mls",
+        "community_id": null,
+        "__typename": "MlsSource"
+    },
+    "status": "for_sale",
+    "suppression_flags": {
+        "has_suppress_all_offmarket_photos_except_one": true
+    },
+    "tags": [
+        "central_air",
+        "family_room",
+        "forced_air",
+        "basement",
+        "two_or_more_stories",
+        "garage_1_or_more",
+        "modern_kitchen",
+        "kitchen_island",
+        "open_kitchen"
+    ],
+    "__typename": "Home"
+}

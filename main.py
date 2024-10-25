@@ -1,6 +1,7 @@
 import csv
 import requests
 from time import time
+import json
 
 def scrape_property_data(property_id):
     """Takes in a property ID and returns a dictionary with the price, address, photo URL, and
@@ -20,6 +21,8 @@ def scrape_property_data(property_id):
     try:
         data = resp.json()
         home_info = data['data']['home']
+        with open('api_response2.json', 'w') as f:
+            json.dump(home_info, f, indent=4)
     except Exception:
         raise Exception('Unknown error in search ' + resp.text)
 
@@ -72,7 +75,7 @@ def scrape_property_ids_from_search(location, number_properties):
     return [property['property_id'] for property in search['properties']]
 
 
-if __name__ == '__main__':
+def user_input():
     # Get user input
     location = input('What location do you want to search in (leave blank for Bethlehem): ') or 'Bethlehem, PA'
     number_properties = input('How many properties do you want to scrape (from 10-200): ') or '10'
@@ -98,3 +101,8 @@ if __name__ == '__main__':
         writer = csv.DictWriter(f, fieldnames=all_property_data[0].keys())
         writer.writeheader()
         writer.writerows(all_property_data)
+
+
+if __name__ == '__main__':
+    # user_input()
+    scrape_property_data('4567308606')
