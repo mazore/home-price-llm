@@ -1,0 +1,18 @@
+{
+    "operationName": "LocationScoresWithAmenities",
+    "amenitiesInput": {
+        "categories": [
+            "LOCAL_ACTIVE_AND_OUTDOOR",
+            "LOCAL_GROCERIES",
+            "LOCAL_SHOPPING",
+            "LOCAL_ENTERTAINMENT",
+            "LOCAL_FOOD_AND_DRINK",
+            "LOCAL_CAFES",
+            "LOCAL_PRESCHOOLS"
+        ],
+        "radius_in_miles":5,
+        "category_limit":3,
+        "sort":"DISTANCE",
+        "order":"ASC"
+    }
+}

@@ -1,51 +1,43 @@
 import csv
-import requests
-from time import time
 import json
+import requests
+from FullPropertyDetailsResponse import FullPropertyDetailsResponse
+from LocationScoresResponse import LocationScoresResponse
+from time import time
 
-def scrape_property_data(property_id):
-    """Takes in a property ID and returns a dictionary with the price, address, photo URL, and
-    description of the house based on the realtor.com API. This can easily be adjusted to include
-    square footage, number of bedrooms, etc.
-    """
+def graphql_request(operation_name, variables, sha_hash):
+    url = f'https://www.realtor.com/frontdoor/graphql'
     headers = {  # Some required headers
         'content-type': 'application/json',
         'rdc-client-name': 'RDC_WEB_DETAILS_PAGE',
         'rdc-client-version': '2.1.6',
     }
     params = {
-        'variables': '{"propertyId":"' + property_id + '"}',
-        'extensions': '{"persistedQuery":{"version":1,"sha256Hash":"17279788159d9fa5b7ad6c57c7f057714e73d30628a00929c1748d710865f52b"}}'
+        'operationName': operation_name,
+        'variables': json.dumps(variables),
+        'extensions': json.dumps({"persistedQuery": {"version": 1, "sha256Hash": sha_hash}})
     }
-    resp = requests.get('https://www.realtor.com/frontdoor/graphql?operationName=FullPropertyDetails', headers=headers, params=params)
+
+    resp = requests.get(url, headers=headers, params=params)
+    return resp.json()
+
+def scrape_property_data(property_id):
+    """Takes in a property ID and returns a dictionary with the price, address, photo URL, and
+    description of the house based on the realtor.com API. This can easily be adjusted to include
+    square footage, number of bedrooms, etc.
+    """
+    variables = {'propertyId': property_id}
+    full_details_resp_json = graphql_request('FullPropertyDetails', variables, '17279788159d9fa5b7ad6c57c7f057714e73d30628a00929c1748d710865f52b')
+
+    variables = {'propertyId': property_id, 'amenitiesInput': {}}  # amenitiesInput is necessary, but we're not currently using the amenities section
+    location_scores_resp_json = graphql_request('LocationScoresWithAmenities', variables, '0c752a13cbd06c9b5c5e5ee3323d22ef504f8474664541761feb6f4fad8d9bc0')
+
     try:
-        data = resp.json()
-        home_info = data['data']['home']
-        with open('api_response2.json', 'w') as f:
-            json.dump(home_info, f, indent=4)
-    except Exception:
-        raise Exception('Unknown error in search ' + resp.text)
-
-    # Extract price
-    list_price = home_info['list_price']
-
-    # Extract address
-    location = home_info['location']['address']
-    address = f"{location['line']}, {location['city']} {location['state_code']} {location['postal_code']}"  # Address like "123 Main St, Bethlehem PA 18018"
-
-    # Extract photo URL
-    low_quality_photo_url = home_info['primary_photo']['href']
-    high_quality_photo_url = low_quality_photo_url.replace('s.jpg', 'rd-w960_h720.webp')
-
-    # Extract description
-    description = home_info['description']['text']
-
-    return {
-        'price': list_price,
-        'address': address,
-        'photo_url': high_quality_photo_url,
-        'description': description,
-    }
+        full_property_details = FullPropertyDetailsResponse(full_details_resp_json).to_dict()
+        location_scores = LocationScoresResponse(location_scores_resp_json).to_dict()
+        return dict(**full_property_details, **location_scores)
+    except Exception as e:
+        raise Exception('Unknown error: ' + str(e))
 
 
 def scrape_property_ids_from_search(location, number_properties):
@@ -105,4 +97,6 @@ def user_input():
 
 if __name__ == '__main__':
     # user_input()
-    scrape_property_data('4567308606')
+    d = scrape_property_data('4567308606')
+    with open('output.json', 'w') as f:
+        json.dump(d, f, indent=4)

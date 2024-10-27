@@ -1,0 +1,225 @@
+{
+    "price": 355000,
+    "date_listed": "2024-09-13T11:56:04Z",
+    "property_tax_rate": 0.01040845,
+    "insurance_rate": 0.004375,
+    "monthly_payment_estimate": 2293,
+    "baths_3qtr": null,
+    "baths_full": 1,
+    "baths_half": 1,
+    "beds": 3,
+    "sqft": 1288,
+    "lot_sqft": 2964,
+    "year_built": 1960,
+    "property_type": "townhomes",
+    "description_text": "SUPER CLEAN Extremely Well Maintained Somerton Twin! Home offers open first floor living space with open kitchen, island, new carpet, and half bath. Walkout the kitchen to backyard to large deck and driveway parking. Backyard features a nice 8x12 shed on raise concrete pad for extra storage. Upstairs features large main bedroom with tons of closet space, second and third bedrooms and hall bath. Very nicely finished basement living space with laundry/utilty room and 1/4 bath. Walkout basement to driveway and garage with rear driveway access. Recent upgrades include New Hi-Effiency HVAC System 2022, New Bradfiord White Hot Water Heater, and New Storm Doors throughout. Quiet neighborhood close to all major transportation, less than 5 minutes to I95, Turnpike, and US1.",
+    "photos": [
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m1637414749rd-w960_h720.webp",
+            "tags": [
+                "house_view",
+                "patio",
+                "porch",
+                "yard",
+                "incomplete"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m677299812rd-w960_h720.webp",
+            "tags": [
+                "living_room"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2848329553rd-w960_h720.webp",
+            "tags": [
+                "living_room"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2166115467rd-w960_h720.webp",
+            "tags": [
+                "dining_room"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m865411041rd-w960_h720.webp",
+            "tags": [
+                "kitchen"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2195244568rd-w960_h720.webp",
+            "tags": [
+                "kitchen"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m530478344rd-w960_h720.webp",
+            "tags": [
+                "kitchen"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2765041253rd-w960_h720.webp",
+            "tags": [
+                "dining_room"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m4190169160rd-w960_h720.webp",
+            "tags": [
+                "living_room"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m3126630729rd-w960_h720.webp",
+            "tags": [
+                "living_room"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2403147436rd-w960_h720.webp",
+            "tags": [
+                "bathroom"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2861609538rd-w960_h720.webp",
+            "tags": [
+                "bedroom"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m3444298639rd-w960_h720.webp",
+            "tags": [
+                "bedroom"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m1360916062rd-w960_h720.webp",
+            "tags": [
+                "bedroom"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2223454764rd-w960_h720.webp",
+            "tags": [
+                "closet"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m2900296782rd-w960_h720.webp",
+            "tags": [
+                "bedroom"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m3212607704rd-w960_h720.webp",
+            "tags": [
+                "bedroom"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m1534033349rd-w960_h720.webp",
+            "tags": [
+                "balcony",
+                "patio"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m3791240204rd-w960_h720.webp",
+            "tags": [
+                "porch"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m591438333rd-w960_h720.webp",
+            "tags": [
+                "shed",
+                "yard"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m3113385981rd-w960_h720.webp",
+            "tags": [
+                "garage",
+                "house_view",
+                "patio",
+                "yard",
+                "back_side",
+                "incomplete"
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "high_quality_photo_url": "https://ap.rdcpix.com/8b1dc72371dede1ddff1d34228626ac3l-m882151162rd-w960_h720.webp",
+            "tags": [
+                "garage",
+                "yard"
+            ]
+        }
+    ],
+    "address": "15151 Endicott St, Philadelphia PA 19116",
+    "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=15151%20Endicott%20St%2C%20Philadelphia%2C%20PA%2019116&size=932x420&source=outdoor&signature=CmbktnDb6DR7ATqRtK-gSdvAnRE=",
+    "neighborhood": "Somerton_Philadelphia_PA",
+    "neighborhood_median_listing_price": 409900,
+    "tax_paid_previous_year": 3695,
+    "walkingScore": 3.8,
+    "cyclingScore": 4.1,
+    "transitScore": 2.2,
+    "drivingScore": 8.2,
+    "parksScore": 6.9,
+    "groceriesScore": 1.3,
+    "shoppingScore": 4,
+    "nightlifeScore": 1.3,
+    "restaurantsScore": 3.9,
+    "cafesScore": 2,
+    "daycaresScore": 1,
+    "quietScore": 9.4,
+    "vibrantScore": 1.9,
+    "wellnessScore": 1.8
+}
