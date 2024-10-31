@@ -7,5 +7,5 @@ class LocationScoresResponse:
     def to_dict(self):
         d = {}
         for key, value in self.scores.items():
-            d[key.lower() + 'Score'] = value
+            d[key.lower() + '_score'] = value
         return d

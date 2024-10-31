@@ -1,9 +1,10 @@
 import csv
 import json
 import requests
-from FullPropertyDetailsResponse import FullPropertyDetailsResponse
-from LocationScoresResponse import LocationScoresResponse
+from response_handlers import *
+from property_search import scrape_property_ids_from_search
 from time import time
+import traceback
 
 def graphql_request(operation_name, variables, sha_hash):
     url = f'https://www.realtor.com/frontdoor/graphql'
@@ -32,39 +33,18 @@ def scrape_property_data(property_id):
     variables = {'propertyId': property_id, 'amenitiesInput': {}}  # amenitiesInput is necessary, but we're not currently using the amenities section
     location_scores_resp_json = graphql_request('LocationScoresWithAmenities', variables, '0c752a13cbd06c9b5c5e5ee3323d22ef504f8474664541761feb6f4fad8d9bc0')
 
+    variables = {'propertyId': property_id}
+    school_data_resp_json = graphql_request('GetSchoolData', variables, 'ee4267d9cd64801da16099587142fc163d2e04fc6525f2b67924440a90b5f638')
+
     try:
-        full_property_details = FullPropertyDetailsResponse(full_details_resp_json).to_dict()
-        location_scores = LocationScoresResponse(location_scores_resp_json).to_dict()
-        return dict(**full_property_details, **location_scores)
+        return dict(
+            **FullPropertyDetailsResponse(full_details_resp_json).to_dict(),
+            **LocationScoresResponse(location_scores_resp_json).to_dict(),
+            **SchoolDataResponse(school_data_resp_json).to_dict()
+        )
     except Exception as e:
-        raise Exception('Unknown error: ' + str(e))
-
-
-def scrape_property_ids_from_search(location, number_properties):
-    """Takes in a location and the number of properties to scrape, and returns a list of property IDs
-    by using the realtor.com API for searching properties.
-    """
-    url = 'https://www.realtor.com/api/v1/rdc_search_srp?client_id=rdc-search-for-sale-search&schema=vesta'
-    headers = {'content-type': 'application/json'}
-    with open('map_search_query.txt', 'r') as f:
-        query = f.read()
-    data = {
-        'query': query,
-        'variables': {
-            'query': {'search_location': {'location': location}, 'status': ['for_sale', 'ready_to_build']},
-            'limit': number_properties,
-            'sort_type': 'relevant',
-            'search_promotion': {'names': [], 'slots': []},
-        },
-    }
-    t = time()
-    resp = requests.post(url, headers=headers, json=data)
-    try:
-        search = resp.json()['data']['home_search']
-    except Exception:
-        raise Exception('Unknown error in search ' + resp.text)
-    print(search['count'], 'properties found in', round(time() - t, 3), 'seconds')
-    return [property['property_id'] for property in search['properties']]
+        traceback.print_exc()
+        return
 
 
 def user_input():
@@ -85,18 +65,28 @@ def user_input():
     for i, property_id in enumerate(property_ids):
         t = time()
         property_data = scrape_property_data(property_id)
+        if property_data is None:
+            print(f'Property {i + 1} of {len(property_ids)} failed to scrape')
+            continue
         print(f'Property {i + 1} of {len(property_ids)} scraped in', round(time() - t, 3), 'seconds')
         all_property_data.append(property_data)
 
     # Write to CSV
     with open('property_data.csv', 'w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=all_property_data[0].keys())
-        writer.writeheader()
-        writer.writerows(all_property_data)
+        fieldnames = list(all_property_data[0].keys())
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+
+        # writer.writeheader()
+        writer.writerow({field: field.replace('_', ' ').title() for field in fieldnames})
+
+        # writer.writerows(all_property_data)
+        for row in all_property_data:
+            row_with_null = {k: ("null" if v is None else v) for k, v in row.items()}
+            writer.writerow(row_with_null)
 
 
 if __name__ == '__main__':
-    # user_input()
-    d = scrape_property_data('4567308606')
-    with open('output.json', 'w') as f:
-        json.dump(d, f, indent=4)
+    user_input()
+    # d = scrape_property_data('4567308606')
+    # with open('output.json', 'w') as f:
+    #     json.dump(d, f, indent=4)

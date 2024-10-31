@@ -1,0 +1,264 @@
+{
+    "data": {
+        "home": {
+            "schools": {
+                "total": 9,
+                "schools": [
+                    {
+                        "id": "0760003701",
+                        "name": "Clearview El School",
+                        "slug_id": "Clearview-El-School-0760003701",
+                        "slug": "Clearview-El-School-0760003701",
+                        "education_levels": [
+                            "elementary"
+                        ],
+                        "distance_in_miles": 0.2,
+                        "student_teacher_ratio": 13.6,
+                        "rating": 4,
+                        "grades": [
+                            "K",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                        ],
+                        "funding_type": "public",
+                        "student_count": 380,
+                        "review_count": 4,
+                        "parent_rating": 4,
+                        "assigned": true,
+                        "__typename": "School"
+                    },
+                    {
+                        "id": "0760003801",
+                        "name": "Nitschmann Middle School",
+                        "slug_id": "Nitschmann-Middle-School-0760003801",
+                        "slug": "Nitschmann-Middle-School-0760003801",
+                        "education_levels": [
+                            "middle"
+                        ],
+                        "distance_in_miles": 1.6,
+                        "student_teacher_ratio": 14,
+                        "rating": 4,
+                        "grades": [
+                            "6",
+                            "7",
+                            "8"
+                        ],
+                        "funding_type": "public",
+                        "student_count": 744,
+                        "review_count": 6,
+                        "parent_rating": 5,
+                        "assigned": true,
+                        "__typename": "School"
+                    },
+                    {
+                        "id": "0760003821",
+                        "name": "Liberty High School",
+                        "slug_id": "Liberty-High-School-0760003821",
+                        "slug": "Liberty-High-School-0760003821",
+                        "education_levels": [
+                            "high"
+                        ],
+                        "distance_in_miles": 2.7,
+                        "student_teacher_ratio": 17.3,
+                        "rating": 2,
+                        "grades": [
+                            "9",
+                            "10",
+                            "11",
+                            "12"
+                        ],
+                        "funding_type": "public",
+                        "student_count": 2663,
+                        "review_count": 9,
+                        "parent_rating": 4,
+                        "assigned": true,
+                        "__typename": "School"
+                    },
+                    {
+                        "id": "0760060231",
+                        "name": "Covenant Christian Academy Of The Lee High Valley",
+                        "slug_id": "Covenant-Christian-Academy-Of-The-Lee-High-Valley-0760060231",
+                        "slug": "Covenant-Christian-Academy-Of-The-Lee-High-Valley-0760060231",
+                        "education_levels": [
+                            "elementary",
+                            "middle"
+                        ],
+                        "distance_in_miles": 0.4,
+                        "student_teacher_ratio": null,
+                        "rating": null,
+                        "grades": [
+                            "K",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8"
+                        ],
+                        "funding_type": "private",
+                        "student_count": 41,
+                        "review_count": 0,
+                        "parent_rating": null,
+                        "assigned": null,
+                        "__typename": "School"
+                    },
+                    {
+                        "id": "0760049501",
+                        "name": "Notre Dame Of Bethlehem School",
+                        "slug_id": "Notre-Dame-Of-Bethlehem-School-0760049501",
+                        "slug": "Notre-Dame-Of-Bethlehem-School-0760049501",
+                        "education_levels": [
+                            "elementary",
+                            "middle"
+                        ],
+                        "distance_in_miles": 0.4,
+                        "student_teacher_ratio": null,
+                        "rating": null,
+                        "grades": [
+                            "PK",
+                            "K",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8"
+                        ],
+                        "funding_type": "private",
+                        "student_count": 453,
+                        "review_count": 5,
+                        "parent_rating": 5,
+                        "assigned": null,
+                        "__typename": "School"
+                    },
+                    {
+                        "id": "0760105401",
+                        "name": "Easter Seals Eastern PA",
+                        "slug_id": "Easter-Seals-Eastern-PA-0760105401",
+                        "slug": "Easter-Seals-Eastern-PA-0760105401",
+                        "education_levels": [
+                            "elementary",
+                            "middle",
+                            "high"
+                        ],
+                        "distance_in_miles": 0.6,
+                        "student_teacher_ratio": null,
+                        "rating": null,
+                        "grades": null,
+                        "funding_type": "private",
+                        "student_count": null,
+                        "review_count": 0,
+                        "parent_rating": null,
+                        "assigned": null,
+                        "__typename": "School"
+                    },
+                    {
+                        "id": "0760003631",
+                        "name": "James Buchanan El School",
+                        "slug_id": "James-Buchanan-El-School-0760003631",
+                        "slug": "James-Buchanan-El-School-0760003631",
+                        "education_levels": [
+                            "elementary"
+                        ],
+                        "distance_in_miles": 0.8,
+                        "student_teacher_ratio": 13,
+                        "rating": 5,
+                        "grades": [
+                            "K",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                        ],
+                        "funding_type": "public",
+                        "student_count": 276,
+                        "review_count": 2,
+                        "parent_rating": 5,
+                        "assigned": null,
+                        "__typename": "School"
+                    },
+                    {
+                        "id": "0760075341",
+                        "name": "Lehigh Valley Academy Regional Cs",
+                        "slug_id": "Lehigh-Valley-Academy-Regional-Cs-0760075341",
+                        "slug": "Lehigh-Valley-Academy-Regional-Cs-0760075341",
+                        "education_levels": [
+                            "elementary",
+                            "middle",
+                            "high"
+                        ],
+                        "distance_in_miles": 1.2,
+                        "student_teacher_ratio": 10.4,
+                        "rating": 5,
+                        "grades": [
+                            "K",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8",
+                            "9",
+                            "10",
+                            "11",
+                            "12"
+                        ],
+                        "funding_type": "public",
+                        "student_count": 1806,
+                        "review_count": 35,
+                        "parent_rating": 4,
+                        "assigned": null,
+                        "__typename": "School"
+                    },
+                    {
+                        "id": "0760162631",
+                        "name": "Lincoln Leadership Academy Charter School",
+                        "slug_id": "Lincoln-Leadership-Academy-Charter-School-0760162631",
+                        "slug": "Lincoln-Leadership-Academy-Charter-School-0760162631",
+                        "education_levels": [
+                            "elementary",
+                            "middle",
+                            "high"
+                        ],
+                        "distance_in_miles": 1.3,
+                        "student_teacher_ratio": 13.8,
+                        "rating": 4,
+                        "grades": [
+                            "K",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8",
+                            "9",
+                            "10",
+                            "11",
+                            "12"
+                        ],
+                        "funding_type": "public",
+                        "student_count": 871,
+                        "review_count": 14,
+                        "parent_rating": 4,
+                        "assigned": null,
+                        "__typename": "School"
+                    }
+                ],
+                "__typename": "SchoolList"
+            },
+            "__typename": "Home"
+        }
+    }
+}

@@ -23,10 +23,10 @@ class FullPropertyDetailsResponse:
 
     def parse_description(self):
         description = self.home_data['description']
-        self.baths_3qtr = description['baths_3qtr']
-        self.baths_full = description['baths_full']
-        self.baths_half = description['baths_half']
-        self.beds = description['beds']
+        self.baths_3qtr = description['baths_3qtr'] or 0
+        self.baths_full = description['baths_full'] or 0
+        self.baths_half = description['baths_half'] or 0
+        self.beds = description['beds'] or 0
         self.sqft = description['sqft']
         self.lot_sqft = description['lot_sqft']
         self.year_built = description['year_built']
@@ -36,26 +36,28 @@ class FullPropertyDetailsResponse:
     def parse_photos(self):
         self.photos = []
         for photo in self.home_data['photos']:
-            title = photo['title']
-            description = photo['description']
+            # title = photo['title']
+            # description = photo['description']
             low_quality_photo_url = photo['href']
             high_quality_photo_url = low_quality_photo_url.replace('s.jpg', 'rd-w960_h720.webp')
-            tags = [tag['label'] for tag in photo['tags']]
-            self.photos.append({
-                'title': title,
-                'description': description,
-                'high_quality_photo_url': high_quality_photo_url,
-                'tags': tags
-            })
+            # tags = [tag['label'] for tag in photo['tags']]
+            self.photos.append(high_quality_photo_url)
+            # self.photos.append({
+            #     'title': title,
+            #     'description': description,
+            #     'high_quality_photo_url': high_quality_photo_url,
+            #     'tags': tags
+            # })
 
     def parse_location(self):
         location = self.home_data['location']
         address = location['address']
         self.address = f"{address['line']}, {address['city']} {address['state_code']} {address['postal_code']}"  # Address like "123 Main St, Bethlehem PA 18018"
         self.street_view_url = location['street_view_url']
-        neighborhood = location['neighborhoods'][0]
-        self.neighborhood = neighborhood['slug_id']
-        self.neighborhood_median_listing_price = neighborhood['geo_statistics']['housing_market']['median_listing_price']
+        has_neighborhood = type(location['neighborhoods']) is list
+        neighborhood = location['neighborhoods'][0] if has_neighborhood else None
+        self.neighborhood = neighborhood['slug_id'] if has_neighborhood else None
+        self.neighborhood_median_listing_price = neighborhood['geo_statistics']['housing_market']['median_listing_price'] if has_neighborhood else None
 
     def to_dict(self):
         dict = self.__dict__.copy()
