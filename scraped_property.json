@@ -1,10 +1,12 @@
 {
+    "property_id": "4567308606",
     "price": 355000,
     "date_listed": "2024-09-13T11:56:04Z",
+    "realtor_url": "https://www.realtor.com/realestateandhomes-detail/15151-Endicott-St_Philadelphia_PA_19116_M45673-08606",
     "property_tax_rate": 0.01040845,
     "insurance_rate": 0.004375,
-    "monthly_payment_estimate": 2316,
-    "baths_3qtr": null,
+    "monthly_payment_estimate": 2327,
+    "baths_3qtr": 0,
     "baths_full": 1,
     "baths_half": 1,
     "beds": 3,
@@ -55,5 +57,101 @@
     "daycares_score": 1,
     "quiet_score": 9.4,
     "vibrant_score": 1.9,
-    "wellness_score": 1.8
+    "wellness_score": 1.8,
+    "school_avg_distance_in_miles": 1.6555555555555557,
+    "school_avg_student_teacher_ratio": 15.383333333333333,
+    "school_avg_rating": 5.5,
+    "school_avg_student_count": 946.5,
+    "tax_history": [
+        {
+            "year": 2023,
+            "tax": 3695,
+            "total_assessment": 264000,
+            "land_building_ratio": 0.25
+        },
+        {
+            "year": 2022,
+            "tax": 3248,
+            "total_assessment": 232100,
+            "land_building_ratio": 0.42857142857142855
+        },
+        {
+            "year": 2021,
+            "tax": 3248,
+            "total_assessment": 232100,
+            "land_building_ratio": 0.42857142857142855
+        },
+        {
+            "year": 2020,
+            "tax": 3248,
+            "total_assessment": 232100,
+            "land_building_ratio": 0.42857142857142855
+        },
+        {
+            "year": 2019,
+            "tax": 3022,
+            "total_assessment": 215900,
+            "land_building_ratio": 0.42857142857142855
+        },
+        {
+            "year": 2018,
+            "tax": 2778,
+            "total_assessment": 198500,
+            "land_building_ratio": 0.42857142857142855
+        },
+        {
+            "year": 2017,
+            "tax": 2778,
+            "total_assessment": 198500,
+            "land_building_ratio": 0.42857142857142855
+        },
+        {
+            "year": 2016,
+            "tax": 2358,
+            "total_assessment": 198500,
+            "land_building_ratio": 0.565815525632834
+        },
+        {
+            "year": 2015,
+            "tax": 2659,
+            "total_assessment": 198500,
+            "land_building_ratio": 0.565815525632834
+        },
+        {
+            "year": 2014,
+            "tax": 2659,
+            "total_assessment": 198500,
+            "land_building_ratio": 0.565815525632834
+        },
+        {
+            "year": 2013,
+            "tax": 2551,
+            "total_assessment": 26112,
+            "land_building_ratio": 0.14275711159737417
+        },
+        {
+            "year": 2012,
+            "tax": 2462,
+            "total_assessment": 26112,
+            "land_building_ratio": 0.14275711159737417
+        },
+        {
+            "year": 2011,
+            "tax": 2371,
+            "total_assessment": 26112,
+            "land_building_ratio": 0.14275711159737417
+        },
+        {
+            "year": 2010,
+            "tax": 2157,
+            "total_assessment": 26112,
+            "land_building_ratio": 0.14275711159737417
+        },
+        {
+            "year": 2009,
+            "tax": 2157,
+            "total_assessment": 26112,
+            "land_building_ratio": 0.14275711159737417
+        }
+    ]
 }

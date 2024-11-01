@@ -1,5 +1,6 @@
 class PropertyTaxResponse:
     def __init__(self, response_json):
+        print(response_json)
         try:
             tax_history_raw = response_json['data']['home']['tax_history'] or []
         except (KeyError, TypeError):  # No schools data

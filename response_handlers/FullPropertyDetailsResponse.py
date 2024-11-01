@@ -3,6 +3,7 @@ class FullPropertyDetailsResponse:
         try:
             self.home_data = response_json['data']['home']
         except:
+            print('error', response_json)
             with open('error.json', 'w') as f:
                 import json
                 json.dump(response_json, f)
