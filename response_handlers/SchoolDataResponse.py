@@ -9,7 +9,10 @@ ATTRS_TO_SCRAPE = [
 
 class SchoolDataResponse:
     def __init__(self, response_json):
-        schools = response_json['data']['home']['schools']['schools']
+        try:
+            schools = response_json['data']['home']['schools']['schools']
+        except (KeyError, TypeError):  # No schools data
+            schools = []
 
         # Get all values for each attribute
         self.attr_values = defaultdict(list)
@@ -27,7 +30,6 @@ class SchoolDataResponse:
                 self.averages[key] = None
                 continue
             self.averages[key] = sum(l) / len(l)
-        print(self.averages)
 
     def to_dict(self):
         return {'school_avg_' + key: val for (key, val) in dict(self.averages).items()}

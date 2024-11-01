@@ -1,0 +1,173 @@
+{
+    "price": 949000,
+    "date_listed": "2024-10-31T20:32:35Z",
+    "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1912-Carriage-Knoll-Dr_Bethlehem_PA_18015_M47167-66863",
+    "property_tax_rate": 0.01592624,
+    "insurance_rate": 0.004375,
+    "monthly_payment_estimate": 6659,
+    "baths_3qtr": 0,
+    "baths_full": 2,
+    "baths_half": 1,
+    "beds": 3,
+    "sqft": 3108,
+    "lot_sqft": null,
+    "year_built": 2006,
+    "property_type": "townhomes",
+    "description_text": "Welcome to your dream townhouse nestled in the countryside of Saucon Valley. This spacious home perfectly blends comfort and luxury for modern living. Step inside and be captivated by the quality craftsmanship evident throughout w/10 ft ceilings on the main level. The open floor plan allows natural light to flood the interior, creating an inviting atmosphere. The first-floor primary bedroom serves as a serene retreat, while the additional bedrooms and loft upstairs provide ample space and privacy for family or guests.The unfinished basement is ready to be converted to extra living space with 9ft ceilings and plumbing for a bathroom, or can serve you well as clean storage space. Situated in a beautiful neighborhood, this townhouse offers the best of both worlds a tranquil living environment with easy access to nearby attractions. Golf enthusiasts will appreciate the proximity to the prestigious Saucon Valley Country Club. When it's time for some retail therapy or entertainment, The Promenade Shops at Saucon Valley, Downtown Bethlehem, and Hellertown's main street are just minutes away, featuring an array of shopping and dining experiences. The thoughtful design and prime location make it an ideal choice. Whether you're enjoying a quiet evening at home or exploring the many amenities of the area, this property offers the perfect balance of comfort and convenience.",
+    "photos": [
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m2408931989rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m4050585319rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m3526341101rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m2852352161rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m3565566314rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m2161682289rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m142158472rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m1003888421rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m3835571867rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m2552277217rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m2630126645rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m2314223435rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m3797792535rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m1190387794rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m1719108087rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m3886216778rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m2597455452rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m3889912673rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m3682699507rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m3475974389rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m1531348920rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m954169347rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m992457483rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m1606703357rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m1978162873rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m1657538499rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m3916748074rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m576551177rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m2075688300rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m1325574255rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m1998925562rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m140368928rd-w960_h720.webp",
+        "https://ap.rdcpix.com/bb4f65e86d54b3bcae9a7aeb765d8987l-m2946797089rd-w960_h720.webp"
+    ],
+    "address": "1912 Carriage Knoll Dr, Bethlehem PA 18015",
+    "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1912%20Carriage%20Knoll%20Dr%2C%20Bethlehem%2C%20PA%2018015&size=932x420&source=outdoor&signature=USpbZBBvM6P-Y8W7t6RmaEIU7lc=",
+    "neighborhood": null,
+    "neighborhood_median_listing_price": null,
+    "tax_paid_previous_year": null,
+    "walking_score": 2.5,
+    "cycling_score": 4.9,
+    "transit_score": 0,
+    "driving_score": 9.4,
+    "parks_score": 6.4,
+    "groceries_score": 0.3,
+    "shopping_score": 2.4,
+    "nightlife_score": 1.1,
+    "restaurants_score": 3.3,
+    "cafes_score": 1.6,
+    "daycares_score": 1,
+    "quiet_score": 6.9,
+    "vibrant_score": 1.4,
+    "wellness_score": 1.1,
+    "school_avg_distance_in_miles": 2.790909090909091,
+    "school_avg_student_teacher_ratio": 13.5625,
+    "school_avg_rating": 3.75,
+    "school_avg_student_count": 818.2,
+    "tax_history": [
+        {
+            "year": 2023,
+            "tax": 15114,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2022,
+            "tax": 14996,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2021,
+            "tax": 14895,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2020,
+            "tax": 14753,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2019,
+            "tax": 14704,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2018,
+            "tax": 14346,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2017,
+            "tax": 14175,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2016,
+            "tax": 13929,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2015,
+            "tax": 13601,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2014,
+            "tax": 12765,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2013,
+            "tax": 12547,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2012,
+            "tax": 12370,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2011,
+            "tax": 11999,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2010,
+            "tax": 11887,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2009,
+            "tax": 11320,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        },
+        {
+            "year": 2008,
+            "tax": 11026,
+            "total_assessment": 171000,
+            "land_building_ratio": null
+        }
+    ]
+}

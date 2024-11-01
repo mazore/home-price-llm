@@ -1,3 +1,4 @@
 from .FullPropertyDetailsResponse import FullPropertyDetailsResponse
 from .LocationScoresResponse import LocationScoresResponse
 from .SchoolDataResponse import SchoolDataResponse
+from .PropertyTaxResponse import PropertyTaxResponse

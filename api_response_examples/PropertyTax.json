@@ -1,0 +1,461 @@
+{
+    "data": {
+        "home": {
+            "status": "for_sale",
+            "property_history": [
+                {
+                    "date": "2024-10-21",
+                    "event_name": "Price Changed",
+                    "price": 355000,
+                    "price_change": 101,
+                    "price_sqft": 275.62111801242236,
+                    "source_listing_id": "PAPH2393766",
+                    "source_name": "BrightMLS",
+                    "price_change_percentage": null,
+                    "days_after_listed": null,
+                    "listing": {
+                        "list_price": 355000,
+                        "last_status_change_date": "2024-09-13T11:56:04Z",
+                        "last_update_date": "2024-10-21T16:51:38Z",
+                        "status": "for_sale",
+                        "list_date": "2024-09-13T11:56:04Z",
+                        "listing_id": "2972067442",
+                        "__typename": "HomeListing"
+                    },
+                    "__typename": "HomePropertyHistory"
+                },
+                {
+                    "date": "2024-10-18",
+                    "event_name": "Price Changed",
+                    "price": 354899,
+                    "price_change": -1,
+                    "price_sqft": 275.542701863354,
+                    "source_listing_id": "PAPH2393766",
+                    "source_name": "BrightMLS",
+                    "price_change_percentage": null,
+                    "days_after_listed": null,
+                    "listing": {
+                        "list_price": 355000,
+                        "last_status_change_date": "2024-09-13T11:56:04Z",
+                        "last_update_date": "2024-10-21T16:51:38Z",
+                        "status": "for_sale",
+                        "list_date": "2024-09-13T11:56:04Z",
+                        "listing_id": "2972067442",
+                        "__typename": "HomeListing"
+                    },
+                    "__typename": "HomePropertyHistory"
+                },
+                {
+                    "date": "2024-10-12",
+                    "event_name": "Price Changed",
+                    "price": 354900,
+                    "price_change": -90,
+                    "price_sqft": 275.54347826086956,
+                    "source_listing_id": "PAPH2393766",
+                    "source_name": "BrightMLS",
+                    "price_change_percentage": null,
+                    "days_after_listed": null,
+                    "listing": {
+                        "list_price": 355000,
+                        "last_status_change_date": "2024-09-13T11:56:04Z",
+                        "last_update_date": "2024-10-21T16:51:38Z",
+                        "status": "for_sale",
+                        "list_date": "2024-09-13T11:56:04Z",
+                        "listing_id": "2972067442",
+                        "__typename": "HomeListing"
+                    },
+                    "__typename": "HomePropertyHistory"
+                },
+                {
+                    "date": "2024-10-10",
+                    "event_name": "Price Changed",
+                    "price": 354990,
+                    "price_change": -9,
+                    "price_sqft": 275.6133540372671,
+                    "source_listing_id": "PAPH2393766",
+                    "source_name": "BrightMLS",
+                    "price_change_percentage": null,
+                    "days_after_listed": null,
+                    "listing": {
+                        "list_price": 355000,
+                        "last_status_change_date": "2024-09-13T11:56:04Z",
+                        "last_update_date": "2024-10-21T16:51:38Z",
+                        "status": "for_sale",
+                        "list_date": "2024-09-13T11:56:04Z",
+                        "listing_id": "2972067442",
+                        "__typename": "HomeListing"
+                    },
+                    "__typename": "HomePropertyHistory"
+                },
+                {
+                    "date": "2024-10-08",
+                    "event_name": "Price Changed",
+                    "price": 354999,
+                    "price_change": 99,
+                    "price_sqft": 275.6203416149068,
+                    "source_listing_id": "PAPH2393766",
+                    "source_name": "BrightMLS",
+                    "price_change_percentage": null,
+                    "days_after_listed": null,
+                    "listing": {
+                        "list_price": 355000,
+                        "last_status_change_date": "2024-09-13T11:56:04Z",
+                        "last_update_date": "2024-10-21T16:51:38Z",
+                        "status": "for_sale",
+                        "list_date": "2024-09-13T11:56:04Z",
+                        "listing_id": "2972067442",
+                        "__typename": "HomeListing"
+                    },
+                    "__typename": "HomePropertyHistory"
+                },
+                {
+                    "date": "2024-10-03",
+                    "event_name": "Price Changed",
+                    "price": 354900,
+                    "price_change": -100,
+                    "price_sqft": 275.54347826086956,
+                    "source_listing_id": "PAPH2393766",
+                    "source_name": "BrightMLS",
+                    "price_change_percentage": null,
+                    "days_after_listed": null,
+                    "listing": {
+                        "list_price": 355000,
+                        "last_status_change_date": "2024-09-13T11:56:04Z",
+                        "last_update_date": "2024-10-21T16:51:38Z",
+                        "status": "for_sale",
+                        "list_date": "2024-09-13T11:56:04Z",
+                        "listing_id": "2972067442",
+                        "__typename": "HomeListing"
+                    },
+                    "__typename": "HomePropertyHistory"
+                },
+                {
+                    "date": "2024-09-30",
+                    "event_name": "Price Changed",
+                    "price": 355000,
+                    "price_change": 100,
+                    "price_sqft": 275.62111801242236,
+                    "source_listing_id": "PAPH2393766",
+                    "source_name": "BrightMLS",
+                    "price_change_percentage": null,
+                    "days_after_listed": null,
+                    "listing": {
+                        "list_price": 355000,
+                        "last_status_change_date": "2024-09-13T11:56:04Z",
+                        "last_update_date": "2024-10-21T16:51:38Z",
+                        "status": "for_sale",
+                        "list_date": "2024-09-13T11:56:04Z",
+                        "listing_id": "2972067442",
+                        "__typename": "HomeListing"
+                    },
+                    "__typename": "HomePropertyHistory"
+                },
+                {
+                    "date": "2024-09-13",
+                    "event_name": "Listed",
+                    "price": 354900,
+                    "price_change": 0,
+                    "price_sqft": 275.54347826086956,
+                    "source_listing_id": "PAPH2393766",
+                    "source_name": "BrightMLS",
+                    "price_change_percentage": "+301.02%",
+                    "days_after_listed": null,
+                    "listing": {
+                        "list_price": 355000,
+                        "last_status_change_date": "2024-09-13T11:56:04Z",
+                        "last_update_date": "2024-10-21T16:51:38Z",
+                        "status": "for_sale",
+                        "list_date": "2024-09-13T11:56:04Z",
+                        "listing_id": "2972067442",
+                        "__typename": "HomeListing"
+                    },
+                    "__typename": "HomePropertyHistory"
+                },
+                {
+                    "date": "1994-06-03",
+                    "event_name": "Sold",
+                    "price": 88500,
+                    "price_change": 0,
+                    "price_sqft": 68.7111801242236,
+                    "source_listing_id": null,
+                    "source_name": "Public Record",
+                    "price_change_percentage": null,
+                    "days_after_listed": null,
+                    "listing": null,
+                    "__typename": "HomePropertyHistory"
+                },
+                {
+                    "date": "1980-04-01",
+                    "event_name": "Sold",
+                    "price": 43500,
+                    "price_change": 0,
+                    "price_sqft": 33.77329192546584,
+                    "source_listing_id": null,
+                    "source_name": "Public Record",
+                    "price_change_percentage": null,
+                    "days_after_listed": null,
+                    "listing": null,
+                    "__typename": "HomePropertyHistory"
+                }
+            ],
+            "tax_history": [
+                {
+                    "assessment": {
+                        "building": 211200,
+                        "land": 52800,
+                        "total": 264000,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": 211200,
+                        "land": 52800,
+                        "total": 264000,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 3695,
+                    "year": 2023,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 162470,
+                        "land": 69630,
+                        "total": 232100,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": 162470,
+                        "land": 69630,
+                        "total": 232100,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 3248,
+                    "year": 2022,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 162470,
+                        "land": 69630,
+                        "total": 232100,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": 162470,
+                        "land": 69630,
+                        "total": 232100,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 3248,
+                    "year": 2021,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 162470,
+                        "land": 69630,
+                        "total": 232100,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": 162470,
+                        "land": 69630,
+                        "total": 232100,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 3248,
+                    "year": 2020,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 151130,
+                        "land": 64770,
+                        "total": 215900,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": 151130,
+                        "land": 64770,
+                        "total": 215900,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 3022,
+                    "year": 2019,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 138950,
+                        "land": 59550,
+                        "total": 198500,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": 138950,
+                        "land": 59550,
+                        "total": 198500,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 2778,
+                    "year": 2018,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 138950,
+                        "land": 59550,
+                        "total": 198500,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": 138950,
+                        "land": 59550,
+                        "total": 198500,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 2778,
+                    "year": 2017,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 126771,
+                        "land": 71729,
+                        "total": 198500,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": 126771,
+                        "land": 71729,
+                        "total": 198500,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 2358,
+                    "year": 2016,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 126771,
+                        "land": 71729,
+                        "total": 198500,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": 126771,
+                        "land": 71729,
+                        "total": 198500,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 2659,
+                    "year": 2015,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 126771,
+                        "land": 71729,
+                        "total": 198500,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": 126771,
+                        "land": 71729,
+                        "total": 198500,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 2659,
+                    "year": 2014,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 22850,
+                        "land": 3262,
+                        "total": 26112,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": null,
+                        "land": null,
+                        "total": 81600,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 2551,
+                    "year": 2013,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 22850,
+                        "land": 3262,
+                        "total": 26112,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": null,
+                        "land": null,
+                        "total": 81600,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 2462,
+                    "year": 2012,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 22850,
+                        "land": 3262,
+                        "total": 26112,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": null,
+                        "land": null,
+                        "total": 81600,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 2371,
+                    "year": 2011,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 22850,
+                        "land": 3262,
+                        "total": 26112,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": null,
+                        "land": null,
+                        "total": 81600,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 2157,
+                    "year": 2010,
+                    "__typename": "TaxHistory"
+                },
+                {
+                    "assessment": {
+                        "building": 22850,
+                        "land": 3262,
+                        "total": 26112,
+                        "__typename": "Assessment"
+                    },
+                    "market": {
+                        "building": null,
+                        "land": null,
+                        "total": 81600,
+                        "__typename": "Assessment"
+                    },
+                    "tax": 2157,
+                    "year": 2009,
+                    "__typename": "TaxHistory"
+                }
+            ],
+            "__typename": "Home"
+        }
+    }
+}

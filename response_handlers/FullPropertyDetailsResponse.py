@@ -1,10 +1,16 @@
 class FullPropertyDetailsResponse:
     def __init__(self, response_json):
-        self.home_data = response_json['data']['home']
+        try:
+            self.home_data = response_json['data']['home']
+        except:
+            with open('error.json', 'w') as f:
+                import json
+                json.dump(response_json, f)
 
         # General info
         self.price = self.home_data['list_price']
         self.date_listed = self.home_data['list_date']  # To parse: datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+        self.realtor_url = self.home_data['href']
 
         # Nested info
         self.parse_mortgage_data()
