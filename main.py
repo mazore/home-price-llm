@@ -29,7 +29,7 @@ def graphql_request_taxes(property_id):
         'rdc-client-name': 'RDC_WEB_DETAILS_PAGE',
         'rdc-client-version': '2.1.6',
     }
-    # Should be turned into a dictionary
+    # Should be turned into a dictionary and cleaned up
     data = '{"operationName":"PropertyAndTaxHistory","variables":{"propertyId":"' + property_id + '"},"query":"query PropertyAndTaxHistory($propertyId: ID) { home(property_id: $propertyId) { status property_history { date event_name price price_change price_sqft source_listing_id source_name price_change_percentage days_after_listed listing { list_price last_status_change_date last_update_date status list_date listing_id __typename } __typename } tax_history { assessment { building land total __typename } market { building land total __typename } tax year __typename } __typename }}"}'
     response = requests.post(url, headers=headers, data=data)
     return response.json()
@@ -105,8 +105,7 @@ def user_input():
 
 
 if __name__ == '__main__':
-    # user_input()
-    d = scrape_property_data('4567308606')
-    with open('scraped_property.json', 'w') as f:
-    # with open('output.json', 'w') as f:
-        json.dump(d, f, indent=4)
+    user_input()
+    # d = scrape_property_data('4567308606')
+    # with open('scraped_property.json', 'w') as f:
+    #     json.dump(d, f, indent=4)
