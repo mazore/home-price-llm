@@ -1,3 +1,5 @@
+SCORE_LABELS = ['Walking', 'Cycling', 'Transit', 'Driving', 'Parks', 'Groceries', 'Shopping', 'Nightlife', 'Restaurants', 'Cafes', 'Daycares', 'Quiet', 'Vibrant', 'Wellness']
+
 class LocationScoresResponse:
     def __init__(self, response_json):
         local = response_json['data']['home']['local']
@@ -6,6 +8,7 @@ class LocationScoresResponse:
 
     def to_dict(self):
         d = {}
-        for key, value in self.scores.items():
-            d[key.lower() + '_score'] = value
+        # print(list(self.scores.keys()))
+        for score in SCORE_LABELS:
+            d[score.lower() + '_score'] = self.scores.get(score, None)
         return d

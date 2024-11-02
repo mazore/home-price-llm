@@ -32,4 +32,4 @@ class SchoolDataResponse:
             self.averages[key] = sum(l) / len(l)
 
     def to_dict(self):
-        return {'school_avg_' + key: val for (key, val) in dict(self.averages).items()}
+        return {'school_avg_' + key: self.averages.get(key) for key in ATTRS_TO_SCRAPE}
