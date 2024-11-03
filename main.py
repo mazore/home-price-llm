@@ -84,7 +84,7 @@ def scrape_all_cities():
         for (state, city_name, _, _) in city_data:
             location = f'{city_name}, {state}'
             logger.info(f'Scraping {PROPERTIES_PER_CITY} properties from {location}...')
-            property_ids = scrape_property_ids_from_search(location, PROPERTIES_PER_CITY)
+            property_ids = scrape_property_ids_from_search(location, PROPERTIES_PER_CITY, logger)
             if len(property_ids) == 0:
                 logger.warning(f'No properties found for {location}, skipping...')
                 continue
