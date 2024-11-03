@@ -6,7 +6,7 @@ def setup_logger():
     logger.setLevel(logging.INFO)
 
     # File handler
-    file_handler = logging.FileHandler('scraping.log')
+    file_handler = logging.FileHandler('scraping.log', mode='w')
     file_handler.setLevel(logging.INFO)
 
     # Console handler
@@ -20,7 +20,6 @@ def setup_logger():
 
     # Add handlers to the logger
     logger.addHandler(file_handler)
-    logger.info('')  # Add a break in the file log
     logger.addHandler(console_handler)
 
     return logger

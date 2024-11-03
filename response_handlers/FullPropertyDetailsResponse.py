@@ -42,10 +42,10 @@ class FullPropertyDetailsResponse:
         # self.tax_paid_previous_year = self.home_data['source']['raw']['tax_amount']
 
     def parse_mortgage_data(self):
-        mortgage = self.home_data['mortgage']
-        self.property_tax_rate = mortgage['property_tax_rate']
-        self.insurance_rate = mortgage['insurance_rate']
-        self.monthly_payment_estimate = mortgage['estimate']['monthly_payment']
+        mortgage = self.home_data.get('mortgage', {})
+        self.property_tax_rate = mortgage.get('property_tax_rate')
+        self.insurance_rate = mortgage.get('insurance_rate')
+        self.monthly_payment_estimate = mortgage.get('estimate', {}).get('monthly_payment')
 
     def parse_description(self):
         description = self.home_data['description']
@@ -61,7 +61,7 @@ class FullPropertyDetailsResponse:
 
     def parse_photos(self):
         self.photos = []
-        for photo in self.home_data['photos']:
+        for photo in (self.home_data.get('photos', []) or []):
             # title = photo['title']
             # description = photo['description']
             low_quality_photo_url = photo['href']
@@ -80,7 +80,7 @@ class FullPropertyDetailsResponse:
         address = location['address']
         self.address = f"{address['line']}, {address['city']} {address['state_code']} {address['postal_code']}"  # Address like "123 Main St, Bethlehem PA 18018"
         self.street_view_url = location['street_view_url']
-        has_neighborhood = type(location['neighborhoods']) is list
+        has_neighborhood = type(location['neighborhoods']) is list and location['neighborhoods'][0] is not None
         if has_neighborhood:
             neighborhood = location['neighborhoods'][0]
             self.neighborhood = neighborhood['slug_id']

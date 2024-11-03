@@ -1,6 +1,4 @@
 import csv
-import json
-import requests
 from time import sleep
 from tqdm import tqdm
 
@@ -22,10 +20,15 @@ def scrape_property_data(property_id):
     """Takes in a property ID and returns a dictionary with the property data based on the
     realtor.com API. If the property data cannot be scraped, returns None.
     """
-    def retry_request(func, *args, retries=3):
+    def retry_request(func, *args, retries=3, resp_checker=None):
         for attempt in range(retries):
             response_json = func(*args, logger)
-            if response_json is not None and response_json.get('data') is not None:
+
+            resp_checked = True
+            if resp_checker is not None:
+                resp_checked = resp_checker(response_json)
+
+            if response_json is not None and response_json.get('data') is not None and resp_checked:
                 return response_json
             logger.warning(f'Error in {func.__name__}, retrying... ({retries - attempt - 1} retries left) Server response: {response_json}')
             sleep(5)
@@ -33,7 +36,8 @@ def scrape_property_data(property_id):
         raise APIResponseError(f'Failed to get {func.__name__} after retries')
 
     try:
-        full_details_resp_json = retry_request(graphql_request, 'FullPropertyDetails', {'propertyId': property_id}, '17279788159d9fa5b7ad6c57c7f057714e73d30628a00929c1748d710865f52b')
+        full_details_resp_checker = lambda response_json: response_json.get('data', {}).get('home') is not None
+        full_details_resp_json = retry_request(graphql_request, 'FullPropertyDetails', {'propertyId': property_id}, '17279788159d9fa5b7ad6c57c7f057714e73d30628a00929c1748d710865f52b', resp_checker=full_details_resp_checker)
         location_scores_resp_json = retry_request(graphql_request, 'LocationScoresWithAmenities', {'propertyId': property_id, 'amenitiesInput': {}}, '0c752a13cbd06c9b5c5e5ee3323d22ef504f8474664541761feb6f4fad8d9bc0')
         school_data_resp_json = retry_request(graphql_request, 'GetSchoolData', {'propertyId': property_id}, 'ee4267d9cd64801da16099587142fc163d2e04fc6525f2b67924440a90b5f638')
         property_tax_resp_json = retry_request(graphql_request_taxes, property_id)
