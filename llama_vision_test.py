@@ -1,7 +1,8 @@
 import requests
 import json
+import os
 
-OPENROUTER_API_KEY = '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'
+OPENROUTER_API_KEY = os.environ['OPENROUTER_API_KEY']
 
 
 def vision_prompt(image_url):

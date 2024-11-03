@@ -1,4 +1,5 @@
 import csv
+import os
 from time import sleep
 from tqdm import tqdm
 
@@ -60,23 +61,24 @@ def scrape_property_data(property_id):
         return None
 
 
-def write_data_to_csv(data, filename):
-    with open(filename, 'w', newline='') as f:
+def write_data_to_csv(data, filename, write_header=False):
+    with open(filename, 'a', newline='') as f:
         fieldnames = list(data[0].keys())
         writer = csv.DictWriter(f, fieldnames=fieldnames)
 
-        # writer.writeheader()
-        writer.writerow({field: field.replace('_', ' ').title() for field in fieldnames})
+        if write_header:  # Write the header only once, at the beginning
+            writer.writerow({field: field.replace('_', ' ').title() for field in fieldnames})
 
-        # writer.writerows(all_property_data)
         for row in data:
             row_with_null = {k: ("null" if v is None else v) for k, v in row.items()}
             writer.writerow(row_with_null)
+
     logger.info(f'Saved {len(data)} rows to {filename}')
 
 
 def scrape_all_cities():
-    all_property_data = []
+    city_property_data = []
+    header_written = False
 
     try:
         for (state, city_name, _, _) in city_data:
@@ -87,25 +89,31 @@ def scrape_all_cities():
                 logger.warning(f'No properties found for {location}, skipping...')
                 continue
 
-            # Get property data for each property
+            city_property_data = []
             for property_id in tqdm(property_ids):
                 property_data = scrape_property_data(property_id)
                 if property_data is None:
                     logger.warning(f'Property {property_id} failed to scrape')
                     continue
-                all_property_data.append(property_data)
+                city_property_data.append(property_data)
 
-            logger.info(f"Saving backup of {len(all_property_data)} records.")
-            write_data_to_csv(all_property_data, 'property_data_backup.csv')
-
-        write_data_to_csv(all_property_data, 'property_data.csv')
+            write_data_to_csv(city_property_data, 'property_data.csv', write_header=not header_written)
+            header_written = True  # Ensure the header is written only once
 
     except (KeyboardInterrupt, Exception) as e:
         logger.info(f'Received {e}, saving...')
-        write_data_to_csv(all_property_data, 'property_data.csv')
+        write_data_to_csv(city_property_data, 'property_data.csv', write_header=not header_written)
 
 
 if __name__ == '__main__':
+    if os.path.exists('property_data.csv'):
+        user_input = input("property_data.csv already exists. Do you want to overwrite it? (Y/n): ")
+        if user_input.lower() not in ['y', '']:
+            logger.info("Exiting without overwriting property_data.csv")
+            exit()
+        else:
+            open('property_data.csv', 'w').close()  # Clear the CSV file
+
     logger.info(f'Starting scraping {PROPERTIES_PER_CITY} properties per city...')
     scrape_all_cities()
 

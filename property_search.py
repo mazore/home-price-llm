@@ -2,7 +2,7 @@ import requests
 from time import time
 import traceback
 
-def scrape_property_ids_from_search(location, number_properties):
+def scrape_property_ids_from_search(location, number_properties, logger):
     """Takes in a location and the number of properties to scrape, and returns a list of property IDs
     by using the realtor.com API for searching properties.
     """
@@ -26,5 +26,5 @@ def scrape_property_ids_from_search(location, number_properties):
     except Exception as e:
         traceback.print_exc()
         quit()
-    print(search['count'], 'properties found in', round(time() - t, 3), 'seconds')
+    logger.info(f'{search["count"]} properties found in {round(time() - t, 3)} seconds')
     return [property['property_id'] for property in search['properties']]
