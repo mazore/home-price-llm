@@ -11,7 +11,7 @@ from property_search import scrape_property_ids_from_search
 
 logger = setup_logger()
 
-PROPERTIES_PER_CITY = 200  # Number of properties to scrape per city
+PROPERTIES_PER_CITY = 250  # Number of properties to scrape per city
 
 class APIResponseError(Exception):
     pass
@@ -37,7 +37,13 @@ def scrape_property_data(property_id):
         raise APIResponseError(f'Failed to get {func.__name__} after retries')
 
     try:
-        full_details_resp_checker = lambda response_json: response_json.get('data', {}).get('home') is not None
+        def full_details_resp_checker(response_json):
+            try:
+                home_not_none = response_json.get('data', {}).get('home') is not None
+                mortgage_not_none = response_json.get('data', {}).get('home', {}).get('mortgage') is not None
+                return home_not_none and mortgage_not_none
+            except Exception:
+                return False
         full_details_resp_json = retry_request(graphql_request, 'FullPropertyDetails', {'propertyId': property_id}, '17279788159d9fa5b7ad6c57c7f057714e73d30628a00929c1748d710865f52b', resp_checker=full_details_resp_checker)
         location_scores_resp_json = retry_request(graphql_request, 'LocationScoresWithAmenities', {'propertyId': property_id, 'amenitiesInput': {}}, '0c752a13cbd06c9b5c5e5ee3323d22ef504f8474664541761feb6f4fad8d9bc0')
         school_data_resp_json = retry_request(graphql_request, 'GetSchoolData', {'propertyId': property_id}, 'ee4267d9cd64801da16099587142fc163d2e04fc6525f2b67924440a90b5f638')
@@ -62,6 +68,8 @@ def scrape_property_data(property_id):
 
 
 def write_data_to_csv(data, filename, write_header=False):
+    if data is None:
+        return
     with open(filename, 'a', newline='') as f:
         fieldnames = list(data[0].keys())
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -79,12 +87,18 @@ def write_data_to_csv(data, filename, write_header=False):
 def scrape_all_cities():
     city_property_data = []
     header_written = False
+    total_saved_rows = 0
+    rows_since_last_sleep = 0
 
     try:
         for (state, city_name, _, _) in city_data:
             location = f'{city_name}, {state}'
-            logger.info(f'Scraping {PROPERTIES_PER_CITY} properties from {location}...')
-            property_ids = scrape_property_ids_from_search(location, PROPERTIES_PER_CITY, logger)
+            logger.info(f'Scraping properties from {location}...')
+            try:
+                property_ids = scrape_property_ids_from_search(location, PROPERTIES_PER_CITY, logger)
+            except Exception as e:
+                logger.error(f'Failed to scrape properties for {location}: {e}', exc_info=True)
+                continue
             if len(property_ids) == 0:
                 logger.warning(f'No properties found for {location}, skipping...')
                 continue
@@ -100,8 +114,16 @@ def scrape_all_cities():
             write_data_to_csv(city_property_data, 'property_data.csv', write_header=not header_written)
             header_written = True  # Ensure the header is written only once
 
+            total_saved_rows += len(city_property_data)
+            rows_since_last_sleep += len(city_property_data)  # Increment the counter
+
+            if rows_since_last_sleep >= 2000:
+                logger.info(f'Added {rows_since_last_sleep} rows since last sleep (total: {total_saved_rows}), sleeping for 60 seconds...')
+                sleep(60)
+                rows_since_last_sleep = 0
+
     except (KeyboardInterrupt, Exception) as e:
-        logger.info(f'Received {e}, saving...')
+        logger.error(f'Received {e}, saving...', exc_info=True)
         write_data_to_csv(city_property_data, 'property_data.csv', write_header=not header_written)
 
 

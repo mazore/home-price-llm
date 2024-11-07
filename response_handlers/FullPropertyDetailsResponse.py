@@ -83,8 +83,11 @@ class FullPropertyDetailsResponse:
         has_neighborhood = type(location['neighborhoods']) is list and location['neighborhoods'][0] is not None
         if has_neighborhood:
             neighborhood = location['neighborhoods'][0]
-            self.neighborhood = neighborhood['slug_id']
-            self.neighborhood_median_listing_price = neighborhood.get('geo_statistics', {}).get('housing_market', {}).get('median_listing_price')
+            self.neighborhood = neighborhood.get('slug_id')
+            try:
+                self.neighborhood_median_listing_price = neighborhood['geo_statistics']['housing_market']['median_listing_price']
+            except:
+                pass
 
     def to_dict(self):
         dict = self.__dict__.copy()
