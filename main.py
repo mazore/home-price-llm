@@ -11,7 +11,7 @@ from property_search import scrape_property_ids_from_search
 
 logger = setup_logger()
 
-PROPERTIES_PER_CITY = 250  # Number of properties to scrape per city
+PROPERTIES_PER_CITY = 240  # Number of properties to scrape per city
 
 class APIResponseError(Exception):
     pass
