@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 from graphql_wrappers import graphql_request, graphql_request_taxes
 from setup_logger import setup_logger
-from city_data import city_data
+from city_data import city_data_batch_one
 from response_handlers import *
 from property_search import scrape_property_ids_from_search
 
@@ -86,12 +86,12 @@ def write_data_to_csv(data, filename, write_header=False):
 
 def scrape_all_cities():
     city_property_data = []
-    header_written = False
+    header_written = True
     total_saved_rows = 0
     rows_since_last_sleep = 0
 
     try:
-        for (state, city_name, _, _) in city_data:
+        for (state, city_name, _, _) in city_data_batch_one:
             location = f'{city_name}, {state}'
             logger.info(f'Scraping properties from {location}...')
             try:
@@ -128,13 +128,13 @@ def scrape_all_cities():
 
 
 if __name__ == '__main__':
-    if os.path.exists('property_data.csv'):
-        user_input = input("property_data.csv already exists. Do you want to overwrite it? (Y/n): ")
-        if user_input.lower() not in ['y', '']:
-            logger.info("Exiting without overwriting property_data.csv")
-            exit()
-        else:
-            open('property_data.csv', 'w').close()  # Clear the CSV file
+    # if os.path.exists('property_data.csv'):
+    #     user_input = input("property_data.csv already exists. Do you want to overwrite it? (Y/n): ")
+    #     if user_input.lower() not in ['y', '']:
+    #         logger.info("Exiting without overwriting property_data.csv")
+    #         exit()
+    #     else:
+    #         open('property_data.csv', 'w').close()  # Clear the CSV file
 
     logger.info(f'Starting scraping {PROPERTIES_PER_CITY} properties per city...')
     scrape_all_cities()
