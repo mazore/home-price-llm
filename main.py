@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 from graphql_wrappers import graphql_request, graphql_request_taxes
 from setup_logger import setup_logger
-from city_data import city_data_batch_one
+from city_data import *
 from response_handlers import *
 from property_search import scrape_property_ids_from_search
 
@@ -44,7 +44,7 @@ def scrape_property_data(property_id):
                 return home_not_none and mortgage_not_none
             except Exception:
                 return False
-        full_details_resp_json = retry_request(graphql_request, 'FullPropertyDetails', {'propertyId': property_id}, '17279788159d9fa5b7ad6c57c7f057714e73d30628a00929c1748d710865f52b', resp_checker=full_details_resp_checker)
+        full_details_resp_json = retry_request(graphql_request, 'FullPropertyDetails', {'propertyId': property_id}, '8b50ab405dfb496db90affc53a0e846e543dc336e24ba5e63667bfa59fe23dee', resp_checker=full_details_resp_checker)
         location_scores_resp_json = retry_request(graphql_request, 'LocationScoresWithAmenities', {'propertyId': property_id, 'amenitiesInput': {}}, '0c752a13cbd06c9b5c5e5ee3323d22ef504f8474664541761feb6f4fad8d9bc0')
         school_data_resp_json = retry_request(graphql_request, 'GetSchoolData', {'propertyId': property_id}, 'ee4267d9cd64801da16099587142fc163d2e04fc6525f2b67924440a90b5f638')
         property_tax_resp_json = retry_request(graphql_request_taxes, property_id)
@@ -86,12 +86,12 @@ def write_data_to_csv(data, filename, write_header=False):
 
 def scrape_all_cities():
     city_property_data = []
-    header_written = True
+    header_written = False
     total_saved_rows = 0
     rows_since_last_sleep = 0
 
     try:
-        for (state, city_name, _, _) in city_data_batch_one:
+        for (state, city_name, _, _) in city_data:
             location = f'{city_name}, {state}'
             logger.info(f'Scraping properties from {location}...')
             try:
@@ -128,18 +128,19 @@ def scrape_all_cities():
 
 
 if __name__ == '__main__':
-    # if os.path.exists('property_data.csv'):
-    #     user_input = input("property_data.csv already exists. Do you want to overwrite it? (Y/n): ")
-    #     if user_input.lower() not in ['y', '']:
-    #         logger.info("Exiting without overwriting property_data.csv")
-    #         exit()
-    #     else:
-    #         open('property_data.csv', 'w').close()  # Clear the CSV file
+    if os.path.exists('property_data.csv'):
+        user_input = input("property_data.csv already exists. Do you want to overwrite it? (Y/n): ")
+        if user_input.lower() not in ['y', '']:
+            logger.info("Exiting without overwriting property_data.csv")
+            exit()
+        else:
+            open('property_data.csv', 'w').close()  # Clear the CSV file
 
     logger.info(f'Starting scraping {PROPERTIES_PER_CITY} properties per city...')
     scrape_all_cities()
 
     # For testing
-    # d = scrape_property_data('4567308606')
+    #d = scrape_property_data('9686105900')
+    #write_data_to_csv([d], 'property_data.csv', write_header=False)
     # with open('scraped_property.json', 'w') as f:
     #     json.dump(d, f, indent=4)

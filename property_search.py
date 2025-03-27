@@ -2,6 +2,9 @@ import requests
 from time import time
 import traceback
 
+with open('map_search_query.txt', 'r') as f:
+    query = f.read()
+
 def scrape_property_ids_from_search(location, number_properties, logger=None):
     """Takes in a location and the number of properties to scrape, and returns a list of unique property IDs
     by using the realtor.com API for searching properties.
@@ -12,9 +15,6 @@ def scrape_property_ids_from_search(location, number_properties, logger=None):
 
     url = 'https://www.realtor.com/api/v1/rdc_search_srp?client_id=rdc-search-for-sale-search&schema=vesta'
     headers = {'content-type': 'application/json'}
-
-    with open('map_search_query.txt', 'r') as f:
-        query = f.read()
 
     data = {
         'query': query,

@@ -1,4 +1,4 @@
-city_data_batch_one = [
+city_data = [#_batch_one = [
     # Alabama
     ("Alabama", "Birmingham", "AL", "35203"), ("Alabama", "Montgomery", "AL", "36104"), ("Alabama", "Mobile", "AL", "36602"),
     ("Alabama", "Huntsville", "AL", "35801"), ("Alabama", "Tuscaloosa", "AL", "35401"), ("Alabama", "Hoover", "AL", "35244"),
@@ -121,8 +121,8 @@ city_data_batch_one = [
     ("Mississippi", "Horn Lake", "MS", "38637"),
     # Missouri
     ("Missouri", "Kansas City", "MO", "64106"), ("Missouri", "St. Louis", "MO", "63101"), ("Missouri", "Springfield", "MO", "65806"),
-]
-city_data = [
+# ]
+# city_data = [
     ("Missouri", "Columbia", "MO", "65201"), ("Missouri", "Independence", "MO", "64050"), ("Missouri", "Lee's Summit", "MO", "64063"),
     ("Missouri", "O'Fallon", "MO", "63366"), ("Missouri", "St. Joseph", "MO", "64501"), ("Missouri", "St. Charles", "MO", "63301"),
     ("Missouri", "Blue Springs", "MO", "64014"),
